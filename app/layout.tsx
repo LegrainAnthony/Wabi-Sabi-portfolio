@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+import { GlobalStyle } from "@/styles";
+import './reset.css'
+import { Header } from "@/components/Header/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+
+      <body className={inter.className}>
+        <div
+        className={GlobalStyle.background}
+        >
+        <img
+          src="images/SVG/FOND.svg"
+          className={GlobalStyle.background__image}
+        />
+        <div>
+          <Header/>
+          {children}
+        </div>
+      </div>
+        </body>
+  </html>
   );
 }

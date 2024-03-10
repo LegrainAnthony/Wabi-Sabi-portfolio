@@ -1,0 +1,69 @@
+.background {
+    background: linear-gradient(0deg, rgba(19,19,40,1) 0%, rgba(7,10,12,1) 100%);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow: hidden;
+    position: relative;
+    /* z-index: -1; */
+  }
+  
+  .background__image {
+      position: absolute;
+      min-height: 100%;
+      // min-width: 100%;
+      /* z-index: 0; */
+      opacity: 0.3;
+  }
+  
+  
+  /* ################################ DEBUG ################################ */
+  
+  .db1 {
+    background-color: red;
+  }
+  
+  .db2 {
+    background-color: green;
+  }
+  
+  .db3 {
+    background-color: blue;
+  }
+  
+  .db4 {
+    background-color: yellow;
+  }
+  
+  .db5 {
+    background-color: purple;
+  }
+  
+  .db6 {
+    background-color: orange;
+  }
+  
+  /* ################################ FONT ################################ */
+
+
+    @font-face {
+      font-family: 'jap';
+      src: url('../public/fonts/jap.ttf');
+    };
+    
+    .jap {
+       font-family: 'jap';
+    }
+
+  /* ################################ MOBILE ################################ */
+  
+  .small_divice_only {
+    display: none;
+  
+  }
+  
+  @media (max-width: 768px) {
+      .small_divice_only {
+          display: block;
+      }
+  }
