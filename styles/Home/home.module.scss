@@ -5,3 +5,12 @@
     align-items: center;
     justify-content: center;
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10vh;
+    min-height: 10vw;
+}

@@ -8,7 +8,7 @@ import Colors from "./global/colors.module.scss";
 
 import HeaderStyle from "./UI/header.module.scss";
 import CustomButtonStyle from "./UI/button.module.scss";
-
+import PaginationBubbleStyle from "./UI/paginatebubble.module.scss";
 // Home
 
 import WabisabiStyle from "./Home/wabisabi.module.scss";
@@ -17,4 +17,16 @@ import AboutStyle from "./Home/about.module.scss";
 import QuestionStyle from "./Home/question.module.scss";
 import UniversStyle from "./Home/univers.module.scss";
 
-export { GlobalStyle, WabisabiStyle, HomeStyle, HeaderStyle, FontStyle, Colors, UniversStyle, CustomButtonStyle, AboutStyle, QuestionStyle };
+export {
+	GlobalStyle,
+	WabisabiStyle,
+	HomeStyle,
+	HeaderStyle,
+	FontStyle,
+	Colors,
+	UniversStyle,
+	CustomButtonStyle,
+	AboutStyle,
+	QuestionStyle,
+	PaginationBubbleStyle
+};

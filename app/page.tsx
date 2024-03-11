@@ -7,6 +7,7 @@ import { Header } from "@/components/Header/Header";
 import { UniversComponent } from "@/components/Home/Univers";
 import { AboutComponent } from "@/components/Home/About";
 import { QuestionComponent } from "@/components/Home/Question";
+import { PaginationBubble } from "@/components/UI/PaginationBubble";
 
 
 type HomeProps = {};
@@ -86,6 +87,7 @@ const Home: React.FC<HomeProps> = () => {
       setMounted(false)
     }
   },[])
+
   return (
     mounted &&
     <div className={HomeStyle.container}>
@@ -93,6 +95,11 @@ const Home: React.FC<HomeProps> = () => {
 			<UniversComponent position={position[1]} />
 			<AboutComponent position={position[2]} />
 			<QuestionComponent position={position[3]} />
+      <div className={HomeStyle.pagination}>
+        {position.map((_, idx) => {
+          return <PaginationBubble key={idx} active={idx === index} bubbleIndex={idx} setIndex={setIndex}/>
+        })}
+      </div>
     </div>
   );
 };

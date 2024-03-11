@@ -1,0 +1,18 @@
+.container {
+    height: 3vw;
+    width: 3vw;
+    border: 1px solid white;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    margin-left: 5vw;
+    position: relative;
+    z-index: 10;
+
+}
+
+.active {
+    height: 10vw;
+    width: 10vw;
+    background-color: transparent;
+}
