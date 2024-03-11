@@ -1,7 +1,14 @@
+.container {
+
+}
+
 
 .title {
     font-size: 15vw;
+    position: relative;
+    z-index: 2;
 }
+
 .graphique__container {
     display: flex;
     align-items: center;
@@ -20,4 +27,12 @@
 
 .button {
     margin-top: 8vw;
+}
+
+.image__container {
+    width: 80%;
+    height: 50vh;
+    z-index: 0;
+    top: -23rem;
+    position: absolute;
 }

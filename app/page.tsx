@@ -6,6 +6,7 @@ import { WabisabiComponent} from "@/components/Home/Wabisabi";
 import { Header } from "@/components/Header/Header";
 import { UniversComponent } from "@/components/Home/Univers";
 import { AboutComponent } from "@/components/Home/About";
+import { QuestionComponent } from "@/components/Home/Question";
 
 
 type HomeProps = {};
@@ -88,10 +89,10 @@ const Home: React.FC<HomeProps> = () => {
   return (
     mounted &&
     <div className={HomeStyle.container}>
-			<WabisabiComponent position={position[2]} />
+			<WabisabiComponent position={position[0]} />
 			<UniversComponent position={position[1]} />
-			<AboutComponent position={position[0]} />
-			<WabisabiComponent position={position[3]} />
+			<AboutComponent position={position[2]} />
+			<QuestionComponent position={position[3]} />
     </div>
   );
 };

@@ -5,7 +5,8 @@ import { Button } from "../UI/Button";
 
 export const AboutComponent: React.FC<HomeComponentProps> = ({ position }) => {
     return (
-      <ComponentsHomeContainer position={position} className={`${AboutStyle.container}`}>
+      <ComponentsHomeContainer position={position + 25} className={`${AboutStyle.container}`}>
+        <CustomImage classNameContainer={`${AboutStyle.image__container}`} alt={'profile picture'} src={`/images/JPEG/profile_pic.jpg`} />
           <TitleContainer>
             <h1 className={`${AboutStyle.title}`}>About me</h1>
           </TitleContainer>

@@ -31,3 +31,22 @@
 .animation_up {
   top: 30vw;
 }
+
+.red__baton__container {
+  width: 65%;
+  margin: 3vw 0 5vw 0;
+  .red__baton {
+    height: 0.5rem;
+    width: 4rem;
+    margin-bottom: 0.1rem ;
+  }
+  
+  .red__baton_first {
+  
+  }
+  
+  .red__baton_second {
+    margin-left: 2rem;
+  }
+}
+
