@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import { GlobalStyle, HomeStyle } from "../styles"
 import { WabisabiComponent} from "@/components/Home/Wabisabi";
 import { Header } from "@/components/Header/Header";
+import { UniversComponent } from "@/components/Home/Univers";
+import { AboutComponent } from "@/components/Home/About";
 
 
 type HomeProps = {};
@@ -86,9 +88,9 @@ const Home: React.FC<HomeProps> = () => {
   return (
     mounted &&
     <div className={HomeStyle.container}>
-			<WabisabiComponent position={position[0]} />
-			<WabisabiComponent position={position[1]} />
 			<WabisabiComponent position={position[2]} />
+			<UniversComponent position={position[1]} />
+			<AboutComponent position={position[0]} />
 			<WabisabiComponent position={position[3]} />
     </div>
   );

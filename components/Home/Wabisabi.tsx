@@ -1,10 +1,10 @@
 import { WabisabiStyle } from "../../styles/index";
-import { WabisabiComponentProps } from "@/types";
-import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer } from "@/components/UI";
+import { HomeComponentProps } from "@/types";
+import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
 
-export const WabisabiComponent: React.FC<WabisabiComponentProps> = ({ position }) => {
+export const WabisabiComponent: React.FC<HomeComponentProps> = ({ position }) => {
     return (
-    <div className={`${WabisabiStyle.container}`} style={{ top: `${position}vh`}} >
+      <ComponentsHomeContainer position={position}>
       <TitleContainer>
         <h1 className={`${WabisabiStyle.wabisabi_title}`}>Wabi-Sabi</h1>
       </TitleContainer>
@@ -17,6 +17,6 @@ export const WabisabiComponent: React.FC<WabisabiComponentProps> = ({ position }
         <p>Design graphique</p>
         <p>& multimédia</p>
       </PinkJapContainer>
-    </div>
+      </ComponentsHomeContainer>
   );
 };

@@ -4,5 +4,7 @@ import HomeStyle from "./home.module.scss";
 import HeaderStyle from "./header.module.scss";
 import FontStyle from "./font.module.scss";
 import Colors from "./colors.module.scss";
-
-export { GlobalStyle, WabisabiStyle, HomeStyle, HeaderStyle, FontStyle, Colors };
+import UniversStyle from "./univers.module.scss";
+import CustomButtonStyle from "./button.module.scss";
+import AboutStyle from "./about.module.scss";
+export { GlobalStyle, WabisabiStyle, HomeStyle, HeaderStyle, FontStyle, Colors, UniversStyle, CustomButtonStyle, AboutStyle };

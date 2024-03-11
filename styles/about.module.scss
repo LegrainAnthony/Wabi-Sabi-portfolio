@@ -1,0 +1,23 @@
+
+.title {
+    font-size: 15vw;
+}
+.graphique__container {
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+    width: 70%;
+    .graphique {
+        font-size: 8vw;
+    }
+}
+
+.sub_pres__container {
+    width: 70%;
+    margin-left: 4vw;
+    margin-top: 3vw;
+}
+
+.button {
+    margin-top: 8vw;
+}

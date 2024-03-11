@@ -24,6 +24,16 @@
       height: 100%;
     }
   }
+
+  .components__container {
+    color: white;
+    position: absolute;
+    width: 100%;
+    transition: top 1s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
   
   /* ################################ DEBUG ################################ */
