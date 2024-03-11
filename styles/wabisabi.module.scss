@@ -1,41 +1,41 @@
-.wabisabi__container {
+.container {
   color: white;
   position: absolute;
   width: 100%;
   transition: top 1s ease-in-out;
   top:    30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   /* z-index: 10; */
+
+  .studio__container {
+    display: flex;
+    align-items: center;
+    margin-left: 4vw;
+    width: 70%;
+    .studio {
+      font-size: 10vw;
+    }
+
+    .studio__flower__container {
+      width: 6vw;
+      height: 6vw;
+      margin-left: 5vw;
+    }
+  }
+
+    .wabisabi_title {
+      font-size: 15vw;
+    }
+
+
+  .sub_pres__container {
+    width: 70%;
+    margin-left: 5vw;
+  }
+
   
-  
-}
-
-.wabisabi__title__container {
-
-}
-
-.wabisabi_title {
-
-}
-
-.wabisabi__subtitle__container {
-  
-}
-
-.wabisabi__subtitle {
-
-}
-
-.wabisabi__subtitle__flower__container {
-
-}
-
-
-.wabisabi__subtitle__flower {
-
-}
-
-.description__title {
-
 }
 
 .animation_down  {

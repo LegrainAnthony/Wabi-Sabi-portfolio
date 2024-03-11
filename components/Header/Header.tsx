@@ -8,7 +8,7 @@ interface HeaderProps {
 export const Header : React.FC<HeaderProps> = () => {
 
 return (
-    <div className={`${GlobalStyle.jap} ${HeaderStyle.container} `}>
+    <div className={`${GlobalStyle.font__jap} ${HeaderStyle.container} `}>
        <p className={HeaderStyle.name}>
        Léa beauchamp
         </p>

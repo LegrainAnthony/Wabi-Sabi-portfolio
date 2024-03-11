@@ -1,0 +1,38 @@
+  /* ################################ FONT ################################ */
+
+  @font-face {
+    font-family: 'jap';
+    src: url('../public/fonts/jap.ttf');
+  };
+
+  @font-face {
+    font-family: 'blunext';
+    src: url('../public/fonts/BluuNext-Bold.otf');
+  };
+
+  @font-face {
+    font-family: 'manthone__bold';
+    src: url('../public/fonts/MANTHONE_Bold.otf');
+  };
+
+  @font-face {
+    font-family: 'manthone__semibold';
+    src: url('../public/fonts/MANTHONE_SemBold.otf');
+  };
+  
+
+  .jap {
+     font-family: 'jap';
+  }
+
+  .blunext {
+    font-family: 'blunext';
+  }
+
+  .manthone_b {
+    font-family: 'manthone__bold';
+  }
+
+  .manthone_sb {
+    font-family: 'manthone__semibold';
+  }

@@ -85,7 +85,7 @@ const Home: React.FC<HomeProps> = () => {
   },[])
   return (
     mounted &&
-    <div>
+    <div className={HomeStyle.container}>
 			<WabisabiComponent position={position[0]} />
 			<WabisabiComponent position={position[1]} />
 			<WabisabiComponent position={position[2]} />
