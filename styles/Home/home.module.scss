@@ -13,4 +13,16 @@
     position: absolute;
     bottom: 10vh;
     min-height: 10vw;
+    min-width: 90vw;
+}
+
+.down__container {
+    position: absolute;
+    bottom: 10vh;
+    right: 5vh;
+    transition: all 0.3s ease-in-out;
+}
+
+.down__active {
+    transform: rotate(180deg);
 }

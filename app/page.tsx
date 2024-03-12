@@ -8,6 +8,7 @@ import { UniversComponent } from "@/components/Home/Univers";
 import { AboutComponent } from "@/components/Home/About";
 import { QuestionComponent } from "@/components/Home/Question";
 import { PaginationBubble } from "@/components/UI/PaginationBubble";
+import { CustomImage } from "@/components/UI";
 
 
 type HomeProps = {};
@@ -100,6 +101,7 @@ const Home: React.FC<HomeProps> = () => {
           return <PaginationBubble key={idx} active={idx === index} bubbleIndex={idx} setIndex={setIndex}/>
         })}
       </div>
+        <CustomImage classNameContainer={`${HomeStyle.down__container} ${index === 3 ? `${HomeStyle.down__active}` : ''}`} src="images/SVG/DOWN.svg" />
     </div>
   );
 };
