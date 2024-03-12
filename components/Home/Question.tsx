@@ -21,6 +21,10 @@ export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) =>
             <a className={`${Colors.purple}`} href="tel:0634167243">06.34.16.72.43</a>
             <a className={`${Colors.purple}`} href="mailto:beauchamplea27@gmail.com">beauchamplea27@gmail.com</a>
           </div>
+          <div className={`${QuestionStyle.medias}`} >
+            <CustomImage src='images/SVG/TWITTER_P.svg' />
+            <CustomImage src='images/SVG/INSTA_P.svg' />
+          </div>
 
       </ComponentsHomeContainer>
   );
