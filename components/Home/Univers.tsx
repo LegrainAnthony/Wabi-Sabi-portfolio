@@ -1,4 +1,4 @@
-import { UniversStyle } from "../../styles/index";
+import { UniversStyle } from "@/styles";
 import { HomeComponentProps } from "@/types";
 import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
 import { Button } from "../UI/Button";

@@ -1,4 +1,4 @@
-import { Colors, FontStyle, QuestionStyle } from "../../styles/index";
+import { Colors, FontStyle, QuestionStyle } from "@/styles";
 import { HomeComponentProps } from "@/types";
 import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
 

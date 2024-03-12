@@ -1,4 +1,4 @@
-import { WabisabiStyle } from "../../styles/index";
+import { WabisabiStyle } from "@/styles";
 import { HomeComponentProps } from "@/types";
 import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
 
