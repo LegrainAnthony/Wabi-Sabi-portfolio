@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { GlobalStyle, HomeStyle } from "../styles"
+import { GlobalStyle, HomeStyle } from "@/styles"
 import { WabisabiComponent} from "@/components/Home/Wabisabi";
 import { Header } from "@/components/Header/Header";
 import { UniversComponent } from "@/components/Home/Univers";
