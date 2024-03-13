@@ -5,4 +5,6 @@ export interface CustomImageProps {
     height? : number;
     alt? : string;
     src? : string;
+    onClickContainer?: () => void;
+    onClickImage?: () => void;
 }
