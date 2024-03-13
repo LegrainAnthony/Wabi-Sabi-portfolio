@@ -1,11 +1,31 @@
+import React from 'react';
 import { UniversStyle } from "../../styles/index";
-import { HomeComponentProps } from "@/types";
-import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
+import { HomeComponentProps, deviceProperties } from "@/types";
+import { useMatchMedia } from "@/hooks";
+import { ComponentsHomeContainer, TitleContainer, SubTitleContainer, PinkJapContainer } from "@/components/UI";
 import { Button } from "../UI/Button";
 
 export const UniversComponent: React.FC<HomeComponentProps> = ({ position }) => {
+  const deviceSizes: deviceProperties[] = 
+      [   
+        {name: 'mobile', current_device : useMatchMedia('(max-width: 460px)'), position: 30},
+        {name: 'mobile-sm', current_device : useMatchMedia('(max-width: 768px)'), position: 60},
+      ]
+  ;
+
+  const calculTopPosition = (position: number, deviceSizes: deviceProperties[]): number => {
+    const foundDevice = deviceSizes.find((device: deviceProperties) => device.current_device === true);
+
+    if(!foundDevice) {
+      return deviceSizes[deviceSizes.length - 1].position + position;
+    }
+
+    return foundDevice?.position + position;
+  };
+
+
     return (
-      <ComponentsHomeContainer position={position + 10} className={`${UniversStyle.container}`}>
+      <ComponentsHomeContainer position={calculTopPosition(position, deviceSizes)} className={`${UniversStyle.container}`}>
         <div className={UniversStyle.video__container}>
           <video className={UniversStyle.video} controls autoPlay muted loop>
               <source src="videos/SHOWREEL.mp4" type="video/mp4"/>

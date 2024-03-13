@@ -73,7 +73,7 @@ const Home: React.FC<HomeProps> = () => {
 
   useEffect(() => {
     if(mounted) {
-      const newPosition = position.map((_: any, idx: number) => (idx - index) * 100 + 30);
+      const newPosition = position.map((_: any, idx: number) => (idx - index) * 100);
       setPosition(newPosition);
       console.log(index);
     }
