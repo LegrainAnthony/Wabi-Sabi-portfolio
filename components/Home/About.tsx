@@ -1,11 +1,19 @@
 import { AboutStyle } from "@/styles";
-import { HomeComponentProps } from "@/types";
+import { HomeComponentProps, deviceProperties } from "@/types";
+import { useMatchMedia } from "@/hooks";
+import { calculTopPosition } from '@/helpers';
 import { CustomImage, TitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
 import { Button } from "../UI/Button";
 
 export const AboutComponent: React.FC<HomeComponentProps> = ({ position }) => {
+  const deviceSizes: deviceProperties[] = 
+  [   
+    {name: 'mobile-sm', current_device : useMatchMedia('(max-width: 460px)'), position: 50},
+    {name: 'mobile', current_device : useMatchMedia('(max-width: 768px)'), position: 55},
+  ];
+
     return (
-      <ComponentsHomeContainer position={position} className={`${AboutStyle.container}`}>
+      <ComponentsHomeContainer position={calculTopPosition(position, deviceSizes)} className={`${AboutStyle.container}`}>
         <CustomImage classNameContainer={`${AboutStyle.image__container}`} alt={'profile picture'} src={`/images/JPEG/profile_pic.jpg`} />
           <TitleContainer>
             <h1 className={`${AboutStyle.title}`}>About me</h1>

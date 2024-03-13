@@ -10,7 +10,7 @@ interface HeaderProps {
 };
 
 export const Header : React.FC<HeaderProps> = () => {
-    const [navMobileActive, setNavMobileActive] = useState(true);
+    const [navMobileActive, setNavMobileActive] = useState(false);
 return (
     <div className={`${HeaderStyle.container} ${navMobileActive ? HeaderStyle.Navigation_mobile_active : navMobileActive} `}>
        <p className={`${HeaderStyle.name} ${FontStyle.jap}`}>

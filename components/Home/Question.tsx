@@ -1,10 +1,18 @@
 import { Colors, FontStyle, QuestionStyle } from "@/styles";
-import { HomeComponentProps } from "@/types";
+import { HomeComponentProps, deviceProperties } from "@/types";
+import { useMatchMedia } from "@/hooks";
+import { calculTopPosition } from '@/helpers';
 import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
 
 export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) => {
+  const deviceSizes: deviceProperties[] = 
+  [   
+    {name: 'mobile-sm', current_device : useMatchMedia('(max-width: 460px)'), position: 10},
+    {name: 'mobile', current_device : useMatchMedia('(max-width: 768px)'), position: 20},
+  ];
+
     return (
-      <ComponentsHomeContainer position={position} className={`${QuestionStyle.container}`}>
+      <ComponentsHomeContainer position={calculTopPosition(position, deviceSizes)}>
           <TitleContainer>
             <h1 className={`${QuestionStyle.title}`}>Une question ?</h1>
           </TitleContainer>

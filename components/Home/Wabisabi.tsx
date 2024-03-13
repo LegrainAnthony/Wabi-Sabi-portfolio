@@ -1,10 +1,19 @@
 import { WabisabiStyle } from "@/styles";
-import { HomeComponentProps } from "@/types";
+import { HomeComponentProps, deviceProperties } from "@/types";
+import { useMatchMedia } from "@/hooks";
+import { calculTopPosition } from '@/helpers';
 import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
 
 export const WabisabiComponent: React.FC<HomeComponentProps> = ({ position }) => {
+  const deviceSizes: deviceProperties[] = 
+  [   
+    {name: 'mobile-sm', current_device : useMatchMedia('(max-width: 460px)'), position: 30},
+    {name: 'mobile', current_device : useMatchMedia('(max-width: 768px)'), position: 40},
+  ];
+
+
     return (
-      <ComponentsHomeContainer position={position}>
+      <ComponentsHomeContainer position={calculTopPosition(position, deviceSizes)}>
       <TitleContainer>
         <h1 className={`${WabisabiStyle.wabisabi_title}`}>Wabi-Sabi</h1>
       </TitleContainer>
