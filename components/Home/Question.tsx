@@ -9,6 +9,7 @@ export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) =>
   [   
     {name: 'mobile-sm', current_device : useMatchMedia('(max-width: 460px)'), position: 10},
     {name: 'mobile', current_device : useMatchMedia('(max-width: 768px)'), position: 20},
+    {name: 'tablet', current_device : useMatchMedia('(max-width: 1024px)'), position: 40},
   ];
 
     return (

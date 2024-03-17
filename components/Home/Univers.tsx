@@ -11,6 +11,7 @@ export const UniversComponent: React.FC<HomeComponentProps> = ({ position }) => 
       [   
         {name: 'mobile-sm', current_device : useMatchMedia('(max-width: 460px)'), position: 40},
         {name: 'mobile', current_device : useMatchMedia('(max-width: 768px)'), position: 40},
+        {name: 'tablet', current_device : useMatchMedia('(max-width: 1024px)'), position: 40},
       ];
 
     return (

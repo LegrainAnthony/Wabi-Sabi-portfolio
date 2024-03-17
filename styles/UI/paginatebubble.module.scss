@@ -4,15 +4,26 @@
     border: 1px solid white;
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
-    background-color: #fff;
-    margin-left: 5vw;
+    background-color: hwb(0 100% 0%);
     position: relative;
     z-index: 10;
 
 }
 
 .active {
-    height: 10vw;
-    width: 10vw;
+    height: 5vw;
+    width: 5vw;
     background-color: transparent;
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        height: 1.5vw;
+        width: 1.5vw;
+    }
+    
+    .active {
+        height: 2vw;
+        width: 2vw;
+    }
 }

@@ -8,21 +8,41 @@
 
 .pagination {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     position: absolute;
     bottom: 10vh;
     min-height: 10vw;
-    min-width: 90vw;
+    min-width: 30vw;
+
+    @media screen and (min-width: 1280px) {
+       bottom: inherit;
+       flex-direction: column;
+       left: 0vw;
+       top: 25vw;
+       min-height: 20vw;
+       min-width: 15vw;
+    }
 }
 
 .down__container {
     position: absolute;
     bottom: 10vh;
     right: 5vh;
+    height: 10vw;
     transition: all 0.3s ease-in-out;
+
+    @media screen and (min-width: 1280px) {
+        left: 2vw;
+        right: inherit;
+        height: 3vw;
+    }
 }
 
 .down__active {
     transform: rotate(180deg);
+}
+
+.pink__container {
+    font-size: 5vw;
 }

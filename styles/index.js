@@ -21,6 +21,7 @@ import UniversStyle from "./Home/univers.module.scss";
 
 import HeaderStyle from "./Header/header.module.scss";
 import NavigationMobileStyle from "./Header/nav_mobile.module.scss";
+import NavigationDesktopStyle from "./Header/nav_desktop.module.scss";
 
 export {
 	GlobalStyle,
@@ -34,5 +35,6 @@ export {
 	AboutStyle,
 	QuestionStyle,
 	PaginationBubbleStyle,
-	NavigationMobileStyle
+	NavigationMobileStyle,
+	NavigationDesktopStyle
 };

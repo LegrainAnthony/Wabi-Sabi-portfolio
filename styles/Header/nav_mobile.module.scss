@@ -14,7 +14,10 @@
     flex-direction: column;
     backdrop-filter: blur(5px);
     transition: right 0.3s ease-in-out;
-    // z-index: 500;
+
+    @media screen and (min-width: 1280px) {
+        display: none;
+    }
 }
 
 .container_active {

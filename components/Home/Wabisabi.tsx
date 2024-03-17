@@ -7,14 +7,15 @@ import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, Compo
 export const WabisabiComponent: React.FC<HomeComponentProps> = ({ position }) => {
   const deviceSizes: deviceProperties[] = 
   [   
-    {name: 'mobile-sm', current_device : useMatchMedia('(max-width: 460px)'), position: 30},
-    {name: 'mobile', current_device : useMatchMedia('(max-width: 768px)'), position: 40},
+    {name: 'mobile-sm', current_device : useMatchMedia('(min-width: 460px)'), position: 30},
+    {name: 'mobile', current_device : useMatchMedia('(min-width: 768px)'), position: 40},
+    {name: 'tablet', current_device : useMatchMedia('(min-width: 1024px)'), position: 35},
   ];
 
 
     return (
       <ComponentsHomeContainer position={calculTopPosition(position, deviceSizes)}>
-      <TitleContainer>
+      <TitleContainer className={WabisabiStyle.title__container}>
         <h1 className={`${WabisabiStyle.wabisabi_title}`}>Wabi-Sabi</h1>
       </TitleContainer>
         <SubTitleContainer className={`${WabisabiStyle.studio__container}`}>
