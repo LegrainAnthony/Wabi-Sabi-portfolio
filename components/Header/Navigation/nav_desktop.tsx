@@ -17,7 +17,8 @@ export const NavigationDesktop: React.FC<NavigationDesktopProps> = () => {
         </div>
         <CustomImage 
             src={'images/SVG/LOGO_ROTATE.svg'} 
-            alt="Header logo" 
+            alt="Header logo"
+            classNameContainer={`${NavigationDesktopStyle.image__container}`}
         />
        </div>
     )

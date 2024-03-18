@@ -7,6 +7,10 @@
        display: flex;
        align-items: center;
     }
+
+    @media screen and (min-width: 1440px) {
+
+    }
 }
 
 .medias__container {
@@ -19,6 +23,11 @@
     .media {
         margin-right: 2vw;
     }
+
+    @media screen and (min-width: 1440px) {
+        width: 6vw;
+        margin-bottom: 2vw;
+    }
 }
 
 .contact__container {
@@ -29,4 +38,21 @@
     .contact {
         margin-top: 3.5vw;
     }
+
+    @media screen and (min-width: 1440px) {
+        font-size: 2vw;
+
+        .contact {
+            margin-top: 3vw;
+        }
+    }
 }
+
+.image__container {
+    @media screen and (min-width: 1440px) {
+        width: 6vw;
+        margin-bottom: 5vw;
+    }
+}
+
+

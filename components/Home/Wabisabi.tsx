@@ -16,7 +16,7 @@ export const WabisabiComponent: React.FC<HomeComponentProps> = ({ position }) =>
     return (
       <ComponentsHomeContainer position={calculTopPosition(position, deviceSizes)}>
       <TitleContainer className={WabisabiStyle.title__container}>
-        <h1 className={`${WabisabiStyle.wabisabi_title}`}>Wabi-Sabi</h1>
+        <h1 className={`${WabisabiStyle.title}`}>Wabi-Sabi</h1>
       </TitleContainer>
         <SubTitleContainer className={`${WabisabiStyle.studio__container}`}>
           <p className={`${WabisabiStyle.studio}`}>STUDIO</p>

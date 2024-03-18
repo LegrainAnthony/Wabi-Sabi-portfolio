@@ -4,6 +4,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+
+    @media screen and (min-width: 1280px) {
+
+    }
+
 }
 
 .pagination {
@@ -23,6 +29,12 @@
        min-height: 20vw;
        min-width: 15vw;
     }
+
+    @media screen and (min-width: 1440px) {
+        top: 20vw;
+        min-height: 15vw;
+        min-width: 15vw;
+     }
 }
 
 .down__container {
@@ -30,12 +42,17 @@
     bottom: 10vh;
     right: 5vh;
     height: 10vw;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 
     @media screen and (min-width: 1280px) {
         left: 2vw;
         right: inherit;
         height: 3vw;
+    }
+
+    @media screen and (min-width: 1440px) {
+        left: 2.5vw;
+        height: 2vw;
     }
 }
 
@@ -45,4 +62,8 @@
 
 .pink__container {
     font-size: 5vw;
+
+    @media screen and (min-width: 1280px) {
+        font-size: 2vw;
+    }
 }

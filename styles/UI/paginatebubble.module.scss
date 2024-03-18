@@ -27,3 +27,15 @@
         width: 2vw;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .container {
+        height: 1vw;
+        width: 1vw;
+    }
+    
+    .active {
+        height: 1.5vw;
+        width: 1.5vw;
+    }
+}
