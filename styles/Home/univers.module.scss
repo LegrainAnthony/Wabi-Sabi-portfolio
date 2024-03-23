@@ -22,10 +22,12 @@
     width: 70%;
     margin-left: 4vw;
     margin-top: 5vw;
+    margin-bottom: 0;
 }
 
 .button {
-    margin-top: 8vw;
+    margin-top: 10vw;
+    font-size: 4vw;
 }
 
 .video__container {
@@ -43,9 +45,16 @@
         width: 90%;
         top: -40vw;
     }
+
+    .button {
+        margin-top: 6vw;
+        font-size: 2.5vw;
+    }
+
+
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1280px) {
     .title__container {
         position: relative;
         z-index: 2;
@@ -79,7 +88,8 @@
     .button {
         position: absolute;
         left: 17vw;
-        bottom: -2vw;
+        bottom: -10vw;
+        font-size: 1.2vw;
     }
 
 }

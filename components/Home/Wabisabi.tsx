@@ -7,9 +7,7 @@ import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, Compo
 export const WabisabiComponent: React.FC<HomeComponentProps> = ({ position }) => {
   const deviceSizes: deviceProperties[] = 
   [   
-    {name: 'mobile-sm', current_device : useMatchMedia('(min-width: 460px)'), position: 30},
-    {name: 'mobile', current_device : useMatchMedia('(min-width: 768px)'), position: 40},
-    {name: 'tablet', current_device : useMatchMedia('(min-width: 1024px)'), position: 35},
+    {name: 'tablet', current_device : useMatchMedia('(max-width: 1024px)'), position: 30},
   ];
 
 

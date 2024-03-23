@@ -7,9 +7,10 @@ import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, Compo
 export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) => {
   const deviceSizes: deviceProperties[] = 
   [   
-    {name: 'mobile-sm', current_device : useMatchMedia('(max-width: 460px)'), position: 10},
-    {name: 'mobile', current_device : useMatchMedia('(max-width: 768px)'), position: 20},
-    {name: 'tablet', current_device : useMatchMedia('(max-width: 1024px)'), position: 40},
+    {name: 'mobile-sm', current_device : useMatchMedia('(max-width: 360px)'), position: 15},
+    {name: 'mobile-sm', current_device : useMatchMedia('(max-width: 460px)'), position: 25},
+    {name: 'tablet', current_device : useMatchMedia('(max-width: 1024px)'), position: 15},
+    {name: 'tablet', current_device : useMatchMedia('(max-width: 1280px)'), position: 25},
   ];
 
     return (
@@ -26,15 +27,16 @@ export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) =>
             <p>de ton projet,tes envies...</p>
             <p>À bientôt !</p>
           </PinkJapContainer>
-          <div className={`${FontStyle.jap} ${Colors.purple} ${QuestionStyle.contact__container}`}>
-            <a className={`${Colors.purple}`} href="tel:0634167243">06.34.16.72.43</a>
-            <a className={`${Colors.purple}`} href="mailto:beauchamplea27@gmail.com">beauchamplea27@gmail.com</a>
+          <div className={`${QuestionStyle.contact__medias__container}`} >
+            <div className={`${FontStyle.jap} ${Colors.purple} ${QuestionStyle.contact__container}`}>
+              <a className={`${Colors.purple}`} href="tel:0634167243">06.34.16.72.43</a>
+              <a className={`${Colors.purple}`} href="mailto:beauchamplea27@gmail.com">beauchamplea27@gmail.com</a>
+            </div>
+            <div className={`${QuestionStyle.medias}`} >
+              <CustomImage classNameContainer={`${QuestionStyle.media}`} src='images/SVG/TWITTER_P.svg' />
+              <CustomImage classNameContainer={`${QuestionStyle.media}`} src='images/SVG/INSTA_P.svg' />
+            </div>
           </div>
-          <div className={`${QuestionStyle.medias}`} >
-            <CustomImage src='images/SVG/TWITTER_P.svg' />
-            <CustomImage src='images/SVG/INSTA_P.svg' />
-          </div>
-
       </ComponentsHomeContainer>
   );
 };
