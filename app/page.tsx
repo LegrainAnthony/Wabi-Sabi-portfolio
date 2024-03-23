@@ -91,6 +91,14 @@ const Home: React.FC<HomeProps> = () => {
 
   return (
     mounted &&
+    <div
+    className={GlobalStyle.background}
+    >
+    <img
+      src="images/SVG/FOND.svg"
+      className={GlobalStyle.background__image}
+    />
+    <Header />
     <div className={HomeStyle.container}>
 			<WabisabiComponent position={position[0]} />
 			<UniversComponent position={position[1]} />
@@ -102,6 +110,7 @@ const Home: React.FC<HomeProps> = () => {
         })}
       </div>
         <CustomImage classNameContainer={`${HomeStyle.down__container} ${index === 3 ? `${HomeStyle.down__active}` : ''}`} src="images/SVG/DOWN.svg" />
+    </div>
     </div>
   );
 };

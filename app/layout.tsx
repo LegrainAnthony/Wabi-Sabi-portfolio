@@ -22,21 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-
       <body className={inter.className}>
-        <div
-        className={GlobalStyle.background}
-        >
-        <img
-          src="images/SVG/FOND.svg"
-          className={GlobalStyle.background__image}
-        />
-        <div>
-          <Header />
-           {/* <div className={GlobalStyle.mask}></div> */}
           {children}
-        </div>
-      </div>
         </body>
   </html>
   );

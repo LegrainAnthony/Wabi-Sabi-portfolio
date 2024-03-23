@@ -9,14 +9,14 @@ import Colors from "./global/colors.module.scss";
 import CustomButtonStyle from "./UI/button.module.scss";
 import PaginationBubbleStyle from "./UI/paginatebubble.module.scss";
 
-// Home
+// Pages
 
-import WabisabiStyle from "./Home/wabisabi.module.scss";
-import HomeStyle from "./Home/home.module.scss";
-import AboutStyle from "./Home/about.module.scss";
-import QuestionStyle from "./Home/question.module.scss";
-import UniversStyle from "./Home/univers.module.scss";
-
+import WabisabiStyle from "./Pages/Home/wabisabi.module.scss";
+import HomeStyle from "./Pages/Home/home.module.scss";
+import AboutStyle from "./Pages/Home/about.module.scss";
+import QuestionStyle from "./Pages/Home/question.module.scss";
+import UniversStyle from "./Pages/Home/univers.module.scss";
+import MyUniversStyle from "./Pages/MyUnivers/MyUnivers.module.scss";
 // Header
 
 import HeaderStyle from "./Header/header.module.scss";
@@ -36,5 +36,6 @@ export {
 	QuestionStyle,
 	PaginationBubbleStyle,
 	NavigationMobileStyle,
-	NavigationDesktopStyle
+	NavigationDesktopStyle,
+	MyUniversStyle
 };

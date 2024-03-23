@@ -8,19 +8,19 @@ import { useMatchMedia } from "@/hooks";
 import { NavigationDesktop } from "./Navigation/nav_desktop";
 
 interface HeaderProps {
- 
+ className?: string
 };
 
 
 
 
-export const Header : React.FC<HeaderProps> = () => {
+export const Header : React.FC<HeaderProps> = ({className}) => {
     const [navMobileActive, setNavMobileActive] = useState(false);
     const [displayMobileHeader, setDisplayMobileHeader] = useState(false)
     // console.log(useMatchMedia('(min-width: 1280px)'));
 
 return (
-    <div className={`${HeaderStyle.container}`}>
+    <div className={`${HeaderStyle.container} ${className}`}>
        <p className={`${HeaderStyle.name} ${FontStyle.jap}`}>
        Léa beauchamp
         </p>
@@ -34,7 +34,7 @@ return (
             setNavMobileActive(!navMobileActive)
         }}/>
         <NavigationDesktop/>
-         <NavigationMobile navMobileActive={navMobileActive} />
+        <NavigationMobile navMobileActive={navMobileActive} />
 
     </div>
 )

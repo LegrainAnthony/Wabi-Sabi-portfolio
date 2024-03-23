@@ -1,0 +1,110 @@
+.container {
+
+}
+
+.title__container {
+
+    width: 80%;
+
+    .title {
+        font-size: 12vw;
+        position: relative;
+        z-index: 2;
+    }
+}
+
+
+.graphique__container {
+    display: flex;
+    align-items: center;
+    margin-left: 2vw;
+    width: 70%;
+    .graphique {
+        font-size: 8vw;
+    }
+}
+
+.sub_pres__container {
+    width: 80%;
+    margin-left: 4vw;
+    margin-top: 3vw;
+    margin-bottom: 0;
+}
+
+.button {
+    margin-top: 8vw;
+    font-size: 2vw;
+}
+
+.image__container {
+    width: 80%;
+    height: 55vh;
+    top: -46vh;
+    z-index: 0;
+    position: absolute;
+
+    @media screen and (min-width: 375px) {
+        height: 45vh;
+        top: -39vh;
+    }
+
+    @media screen and (min-width: 768px) {
+        height: 48vh;
+        width: 70%;
+        top: -40vh;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .image__container {
+        width: 35%;
+        top: -5vh;
+        right: 10vh;
+    }  
+
+    .title__container {
+        width: 70%;
+        .title {
+            font-size: 8vw
+        }
+    }
+
+    .sub_pres__container {
+        width: 73%;
+    }
+
+    .button {
+        position: absolute;
+        top: 10vw;
+        left: 15vw;
+        font-size: 1vw;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .image__container {
+        width: 30%;
+        height: 70vh;
+        top: -5vh;
+        right: 10vw;
+    }  
+
+    .title__container {
+        width: 70%;
+        .title {
+            font-size: 8vw
+        }
+    }
+
+    .sub_pres__container {
+        width: 73%;
+    }
+
+    .button {
+        position: absolute;
+        top: 10vw;
+        left: 15vw;
+        font-size: 1vw;
+    }
+}
