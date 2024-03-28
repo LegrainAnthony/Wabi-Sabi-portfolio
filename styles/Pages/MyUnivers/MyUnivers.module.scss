@@ -1,6 +1,6 @@
 .image__container {
     width: 100%;
-    height: 20vh;
+    height: 30vw;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -36,4 +36,18 @@
     }
 }
 
+.projets__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-top: 5vw;
+    .illustration__container {
+        width: 30vw;
+        height: 100%;
+        .illustration {
 
+        }
+    }
+
+}

@@ -38,11 +38,9 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
           <p className={`${MyUniversStyle.type}`} >IDENTITÉ VISUELLE</p>
     </div>
     <div className={`${MyUniversStyle.projets__container}`}>
-      {illustrations.map((_, index) => {
+      {illustrations.map((illustration, index) => {
             return (
-                <CustomImage>
-                  
-                </CustomImage>
+              <CustomImage classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`} src={illustration.image_src} alt={illustration.alt} />
             )
       })}
     </div>

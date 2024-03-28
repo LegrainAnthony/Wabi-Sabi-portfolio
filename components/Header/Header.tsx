@@ -22,7 +22,7 @@ export const Header : React.FC<HeaderProps> = ({className}) => {
 return (
     <div className={`${HeaderStyle.container} ${className}`}>
        <p className={`${HeaderStyle.name} ${FontStyle.jap}`}>
-       Léa beauchamp
+       Léa Beauchamp
         </p>
         <CustomImage 
         classNameContainer={`${HeaderStyle.flower__container} ${navMobileActive ? `${HeaderStyle.flower_active}` : ''}`}
