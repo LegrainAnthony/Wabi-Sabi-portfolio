@@ -6,19 +6,23 @@ import { useEffect, useState } from "react";
 type MyUniversProps = {};
 
 const MyUnivers: React.FC<MyUniversProps> = () => {
-  console.log(IllustrationsDatas);
   const [typeDisplayed, setTypeDisplayed] = useState('all');
   const [illustrations, setIllustrations] = useState(IllustrationsDatas);
 
+  const handleChangeType = (type: string) => {
+      setTypeDisplayed(type)
+  }
+
   useEffect(() => {
       if(typeDisplayed !== 'all') {
+            let regex = new RegExp(`${typeDisplayed}`)   
             setIllustrations(() => {
-                  return IllustrationsDatas.filter((illu, id) => illu.type === typeDisplayed)
+                  return IllustrationsDatas.filter((illu, id) => regex.test(illu.type))
             })
             return
       }
       setIllustrations(IllustrationsDatas)
-  }, [])
+  }, [typeDisplayed])
   
   return (
     <PageContainer>
@@ -32,10 +36,10 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
         </SubTitleContainer>
     </div>
     <div className={`${MyUniversStyle.types__container} ${FontStyle.jap}`} >
-          <p className={`${MyUniversStyle.type}`} >ALL</p>
-          <p className={`${MyUniversStyle.type}`} >ILLUSTRATION</p>
-          <p className={`${MyUniversStyle.type}`} >MOTION DESIGN</p>
-          <p className={`${MyUniversStyle.type}`} >IDENTITÉ VISUELLE</p>
+          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('all')}} >ALL</p>
+          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('illu')}} >ILLUSTRATION</p>
+          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('motion')}} >MOTION DESIGN</p>
+          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('visu')}} >IDENTITÉ VISUELLE</p>
     </div>
     <div className={`${MyUniversStyle.projets__container}`}>
       {illustrations.map((illustration, index) => {
