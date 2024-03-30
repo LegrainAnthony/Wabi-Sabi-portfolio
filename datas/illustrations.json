@@ -1,578 +1,150 @@
 [
     {
-        "name": "ADDY",
-        "alt": "ADDY",
-        "image_src": "/images/JPG/ADDY.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY000",
-        "alt": "ADDY000",
-        "image_src": "/images/JPG/ADDY000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
         "name": "BUREAU",
         "alt": "BUREAU",
         "image_src": "/images/JPG/BUREAU.jpg",
-        "type": "",
-        "action_click": "",
+        "type": "ILLUSTRATION",
+        "action_click": "popup",
         "hover_gif": false
+    },
+    {
+        "name": "VIS_MA_VIE",
+        "alt": "VIS_MA_VIE",
+        "image_src": "/images/JPG/VISMAVIE.jpg",
+        "type": "ILLUSTRATION",
+        "action_click": "link",
+        "hover_gif": false
+    },
+    {
+        "name": "@ADDY",
+        "alt": "ADDY",
+        "preview_url": "/images/JPG/ADDY000.jpg",
+        "gif_src": "/images/GIF/ADDY.gif",
+        "type": "IDENTITE_VISUELLE/MOTION",
+        "action_click": "link",
+        "hover_gif": true
+    },
+    {
+        "name": "@KIO",
+        "alt": "KIO",
+        "image_src": "/images/JPG/KIO000.jpg",
+        "type": "IDENTITE_VISUELLE/MOTION",
+        "action_click": "link",
+        "hover_gif": true
+    },
+    {
+        "name": "VIS_MA_VIE",
+        "alt": "VIS_MA_VIE",
+        "image_src": "/images/JPG/VIS.jpg",
+        "type": "MOTION",
+        "action_click": "link",
+        "hover_gif": true
+    },
+    {
+        "name": "@REYDO",
+        "alt": "REYDO",
+        "image_src": "/images/JPG/REYDO00.jpg",
+        "type": "MOTION/ILLUSTRATION",
+        "action_click": "link",
+        "hover_gif": true
+    },
+    {
+        "name": "VAMPIRE",
+        "alt": "VAMPIRE",
+        "image_src": "/images/JPG/VAMPIRE.jpg",
+        "type": "ILLUSTRATION",
+        "action_click": "popup",
+        "hover_gif": false
+    },
+    {
+        "name": "HAZBIN_HOTEL",
+        "alt": "HAZBIN_HOTEL",
+        "image_src": "/images/JPG/VAGGIE.jpg",
+        "type": "ILLUSTRATION",
+        "action_click": "popup",
+        "hover_gif": false
+    },
+    {
+        "name": "LOGO_RENNES",
+        "alt": "LOGO_RENNES",
+        "image_src": "/images/JPG/LOGO000.jpg",
+        "type": "IDENTITE_VISUELLE",
+        "action_click": "link",
+        "hover_gif": true
+    },
+    {
+        "name": "JURASSIC",
+        "alt": "JURASSIC",
+        "image_src": "/images/JPG/DINO000.jpg",
+        "type": "MOTION",
+        "action_click": "link",
+        "hover_gif": true
+    },
+    {
+        "name": "VALKYRIANT",
+        "alt": "VALKYRIANT",
+        "image_src": "/images/JPG/VALKY67.jpg",
+        "type": "IDENTITE_VISUELLE",
+        "action_click": "link",
+        "hover_gif": true
+    },
+    {
+        "name": "@TEG0R",
+        "alt": "TEG0R",
+        "image_src": "/images/JPG/TEGOR000.jpg",
+        "type": "MOTION/ILLUSTRATION",
+        "action_click": "link",
+        "hover_gif": true
+    },
+    {
+        "name": "ECOCLIC",
+        "alt": "COCLIC",
+        "image_src": "/images/JPG/ECO_CLIC084.jpg",
+        "type": "IDENTITE_VISUELLE/MOTION",
+        "action_click": "link",
+        "hover_gif": true
+    },
+    {
+        "name": "EMOTE_TEG0R",
+        "alt": "EMOTE_TEG0R",
+        "image_src": "/images/JPG/TEGOR.jpg",
+        "type": "ILLUSTRATION",
+        "action_click": "popup",
+        "hover_gif": false
+    },
+    {
+        "name": "VELO_TOUR",
+        "alt": "VELO_TOUR",
+        "image_src": "/images/JPG/VELO.jpg",
+        "type": "IDENTITE_VISUELLE/MOTION",
+        "action_click": "link",
+        "hover_gif": true
+    },
+    {
+        "name": "EMOTE_ADDY",
+        "alt": "EMOTE_ADDY",
+        "image_src": "/images/JPG/ADDY.jpg",
+        "type": "ILLUSTRATION",
+        "action_click": "popup",
+        "hover_gif": false
+    },
+    {
+        "name": "TETRIS",
+        "alt": "TETRIS",
+        "image_src": "/images/JPG/TETRIS290.jpg",
+        "type": "IDENTITE_VISUELLE",
+        "action_click": "link",
+        "hover_gif": true
     },
     {
         "name": "DIAMANT",
         "alt": "DIAMANT",
         "image_src": "/images/JPG/DIAMANT.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DINO000",
-        "alt": "DINO000",
-        "image_src": "/images/JPG/DINO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ECO_CLIC084",
-        "alt": "ECO_CLIC084",
-        "image_src": "/images/JPG/ECO_CLIC084.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "KIO000",
-        "alt": "KIO000",
-        "image_src": "/images/JPG/KIO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "LOGO000",
-        "alt": "LOGO000",
-        "image_src": "/images/JPG/LOGO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "REYDO00",
-        "alt": "REYDO00",
-        "image_src": "/images/JPG/REYDO00.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY",
-        "alt": "ADDY",
-        "image_src": "/images/JPG/ADDY.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY000",
-        "alt": "ADDY000",
-        "image_src": "/images/JPG/ADDY000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "BUREAU",
-        "alt": "BUREAU",
-        "image_src": "/images/JPG/BUREAU.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DIAMANT",
-        "alt": "DIAMANT",
-        "image_src": "/images/JPG/DIAMANT.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DINO000",
-        "alt": "DINO000",
-        "image_src": "/images/JPG/DINO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ECO_CLIC084",
-        "alt": "ECO_CLIC084",
-        "image_src": "/images/JPG/ECO_CLIC084.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "KIO000",
-        "alt": "KIO000",
-        "image_src": "/images/JPG/KIO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "LOGO000",
-        "alt": "LOGO000",
-        "image_src": "/images/JPG/LOGO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "REYDO00",
-        "alt": "REYDO00",
-        "image_src": "/images/JPG/REYDO00.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY",
-        "alt": "ADDY",
-        "image_src": "/images/JPG/ADDY.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY000",
-        "alt": "ADDY000",
-        "image_src": "/images/JPG/ADDY000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "BUREAU",
-        "alt": "BUREAU",
-        "image_src": "/images/JPG/BUREAU.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DIAMANT",
-        "alt": "DIAMANT",
-        "image_src": "/images/JPG/DIAMANT.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DINO000",
-        "alt": "DINO000",
-        "image_src": "/images/JPG/DINO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ECO_CLIC084",
-        "alt": "ECO_CLIC084",
-        "image_src": "/images/JPG/ECO_CLIC084.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "KIO000",
-        "alt": "KIO000",
-        "image_src": "/images/JPG/KIO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "LOGO000",
-        "alt": "LOGO000",
-        "image_src": "/images/JPG/LOGO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "REYDO00",
-        "alt": "REYDO00",
-        "image_src": "/images/JPG/REYDO00.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY",
-        "alt": "ADDY",
-        "image_src": "/images/JPG/ADDY.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY000",
-        "alt": "ADDY000",
-        "image_src": "/images/JPG/ADDY000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "BUREAU",
-        "alt": "BUREAU",
-        "image_src": "/images/JPG/BUREAU.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DIAMANT",
-        "alt": "DIAMANT",
-        "image_src": "/images/JPG/DIAMANT.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DINO000",
-        "alt": "DINO000",
-        "image_src": "/images/JPG/DINO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ECO_CLIC084",
-        "alt": "ECO_CLIC084",
-        "image_src": "/images/JPG/ECO_CLIC084.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "KIO000",
-        "alt": "KIO000",
-        "image_src": "/images/JPG/KIO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "LOGO000",
-        "alt": "LOGO000",
-        "image_src": "/images/JPG/LOGO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "REYDO00",
-        "alt": "REYDO00",
-        "image_src": "/images/JPG/REYDO00.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY",
-        "alt": "ADDY",
-        "image_src": "/images/JPG/ADDY.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY000",
-        "alt": "ADDY000",
-        "image_src": "/images/JPG/ADDY000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "BUREAU",
-        "alt": "BUREAU",
-        "image_src": "/images/JPG/BUREAU.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DIAMANT",
-        "alt": "DIAMANT",
-        "image_src": "/images/JPG/DIAMANT.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DINO000",
-        "alt": "DINO000",
-        "image_src": "/images/JPG/DINO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ECO_CLIC084",
-        "alt": "ECO_CLIC084",
-        "image_src": "/images/JPG/ECO_CLIC084.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "KIO000",
-        "alt": "KIO000",
-        "image_src": "/images/JPG/KIO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "LOGO000",
-        "alt": "LOGO000",
-        "image_src": "/images/JPG/LOGO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "REYDO00",
-        "alt": "REYDO00",
-        "image_src": "/images/JPG/REYDO00.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY",
-        "alt": "ADDY",
-        "image_src": "/images/JPG/ADDY.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY000",
-        "alt": "ADDY000",
-        "image_src": "/images/JPG/ADDY000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "BUREAU",
-        "alt": "BUREAU",
-        "image_src": "/images/JPG/BUREAU.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DIAMANT",
-        "alt": "DIAMANT",
-        "image_src": "/images/JPG/DIAMANT.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DINO000",
-        "alt": "DINO000",
-        "image_src": "/images/JPG/DINO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ECO_CLIC084",
-        "alt": "ECO_CLIC084",
-        "image_src": "/images/JPG/ECO_CLIC084.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "KIO000",
-        "alt": "KIO000",
-        "image_src": "/images/JPG/KIO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "LOGO000",
-        "alt": "LOGO000",
-        "image_src": "/images/JPG/LOGO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "REYDO00",
-        "alt": "REYDO00",
-        "image_src": "/images/JPG/REYDO00.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY",
-        "alt": "ADDY",
-        "image_src": "/images/JPG/ADDY.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY000",
-        "alt": "ADDY000",
-        "image_src": "/images/JPG/ADDY000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "BUREAU",
-        "alt": "BUREAU",
-        "image_src": "/images/JPG/BUREAU.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DIAMANT",
-        "alt": "DIAMANT",
-        "image_src": "/images/JPG/DIAMANT.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DINO000",
-        "alt": "DINO000",
-        "image_src": "/images/JPG/DINO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ECO_CLIC084",
-        "alt": "ECO_CLIC084",
-        "image_src": "/images/JPG/ECO_CLIC084.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "KIO000",
-        "alt": "KIO000",
-        "image_src": "/images/JPG/KIO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "LOGO000",
-        "alt": "LOGO000",
-        "image_src": "/images/JPG/LOGO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "REYDO00",
-        "alt": "REYDO00",
-        "image_src": "/images/JPG/REYDO00.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY",
-        "alt": "ADDY",
-        "image_src": "/images/JPG/ADDY.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ADDY000",
-        "alt": "ADDY000",
-        "image_src": "/images/JPG/ADDY000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "BUREAU",
-        "alt": "BUREAU",
-        "image_src": "/images/JPG/BUREAU.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DIAMANT",
-        "alt": "DIAMANT",
-        "image_src": "/images/JPG/DIAMANT.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "DINO000",
-        "alt": "DINO000",
-        "image_src": "/images/JPG/DINO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "ECO_CLIC084",
-        "alt": "ECO_CLIC084",
-        "image_src": "/images/JPG/ECO_CLIC084.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "KIO000",
-        "alt": "KIO000",
-        "image_src": "/images/JPG/KIO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "LOGO000",
-        "alt": "LOGO000",
-        "image_src": "/images/JPG/LOGO000.jpg",
-        "type": "",
-        "action_click": "",
-        "hover_gif": false
-    },
-    {
-        "name": "REYDO00",
-        "alt": "REYDO00",
-        "image_src": "/images/JPG/REYDO00.jpg",
-        "type": "",
-        "action_click": "",
+        "type": "ILLUSTRATION",
+        "action_click": "popup",
         "hover_gif": false
     }
+    
+
+
 ]
