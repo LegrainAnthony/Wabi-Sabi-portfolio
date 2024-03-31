@@ -3,6 +3,7 @@ import { CustomImage, PageContainer, SubTitleContainer, TitleContainer } from "@
 import { FontStyle, MyUniversStyle } from "@/styles";
 import { IllustrationsDatas } from '@/datas'
 import { useEffect, useState } from "react";
+import { Button } from "@/components/UI/Button";
 type MyUniversProps = {};
 
 const MyUnivers: React.FC<MyUniversProps> = () => {
@@ -11,6 +12,13 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
 
   const handleChangeType = (type: string) => {
       setTypeDisplayed(type)
+  }
+
+  const scrollToTop = () => {
+      window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
   }
 
   useEffect(() => {
@@ -48,6 +56,7 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
             )
       })}
     </div>
+     <Button className={`${MyUniversStyle.button}`} buttonText="Remonter la page" onClick={scrollToTop}/>
     </PageContainer>
   );
 };

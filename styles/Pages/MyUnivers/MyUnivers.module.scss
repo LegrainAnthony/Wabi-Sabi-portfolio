@@ -10,7 +10,7 @@
 
 .presentation__container {
     width: 70%;
-    margin-top: 3.5vw;
+    margin-top: 10.5vw;
     margin-bottom: 3.5vw;
     .title__Container {
         .title {
@@ -52,6 +52,12 @@
 
 }
 
+.button {
+    font-size: 3vw;
+    margin-top: 10vw;
+    margin-bottom: 20vw;
+}
+
 
 @media screen and (min-width: 1280px) {
     .image__container {
@@ -59,6 +65,7 @@
     }
 
     .presentation__container {
+        margin-top: 7vw;
         .title__Container {
             .title {
                 font-size: 6.5vw;
@@ -77,8 +84,16 @@
         width: 55%;
         .type {
             font-size: 1.8vw;
+            transition: all ease-in-out 0.1s;
+        &:hover {
+            transform: scale(1.1);
         }
-    }
+        }
+
+
+    } 
+
+
 
     .projets__container {
         display: flex;
@@ -97,4 +112,11 @@
     
     }
     
+}
+
+
+@media screen and (min-width: 1440px) {
+    .presentation__container {
+        margin-top: 8vw;
+    }
 }
