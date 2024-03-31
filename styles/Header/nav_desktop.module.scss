@@ -26,32 +26,32 @@
 
     @media screen and (min-width: 1440px) {
         width: 6vw;
-        margin-bottom: 2vw;
     }
 }
-
 .contact__container {
+
     height: 100%;
     font-size: 3vw;
     margin-right: 2vw;
 
     .contact {
-        margin-top: 3.5vw;
+
     }
 
     @media screen and (min-width: 1440px) {
         font-size: 2vw;
 
-        .contact {
-            margin-top: 3vw;
-        }
+        // .contact {
+        //     margin-top: 3vw;
+        // }
     }
 }
 
 .image__container {
+    margin-top: 1vw;
     @media screen and (min-width: 1440px) {
         width: 6vw;
-        margin-bottom: 5vw;
+        margin-top: -0.5vw;
     }
 }
 

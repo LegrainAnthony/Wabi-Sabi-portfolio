@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 type MyUniversProps = {};
 
 const MyUnivers: React.FC<MyUniversProps> = () => {
-  const [typeDisplayed, setTypeDisplayed] = useState('all');
+  const [typeDisplayed, setTypeDisplayed] = useState('ALL');
   const [illustrations, setIllustrations] = useState(IllustrationsDatas);
 
   const handleChangeType = (type: string) => {
@@ -14,7 +14,7 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
   }
 
   useEffect(() => {
-      if(typeDisplayed !== 'all') {
+      if(typeDisplayed !== 'ALL') {
             let regex = new RegExp(`${typeDisplayed}`)   
             setIllustrations(() => {
                   return IllustrationsDatas.filter((illu, id) => regex.test(illu.type))
@@ -36,15 +36,15 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
         </SubTitleContainer>
     </div>
     <div className={`${MyUniversStyle.types__container} ${FontStyle.jap}`} >
-          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('all')}} >ALL</p>
-          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('illu')}} >ILLUSTRATION</p>
-          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('motion')}} >MOTION DESIGN</p>
-          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('visu')}} >IDENTITÉ VISUELLE</p>
+          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('ALL')}} >ALL</p>
+          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('ILLUSTRATION')}} >ILLUSTRATION</p>
+          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('MOTION')}} >MOTION DESIGN</p>
+          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('IDENTITE_VISUELLE')}} >IDENTITÉ VISUELLE</p>
     </div>
     <div className={`${MyUniversStyle.projets__container}`}>
       {illustrations.map((illustration, index) => {
             return (
-              <CustomImage classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`} src={illustration.image_src} alt={illustration.alt} />
+              <CustomImage classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`} src={illustration.preview_url} alt={illustration.alt} />
             )
       })}
     </div>
