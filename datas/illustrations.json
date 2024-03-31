@@ -2,6 +2,7 @@
     {
         "name": "BUREAU",
         "alt": "BUREAU",
+        "preview_url": "/images/JPG/BUREAU.jpg",
         "image_src": "/images/JPG/BUREAU.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
@@ -10,6 +11,7 @@
     {
         "name": "VIS_MA_VIE",
         "alt": "VIS_MA_VIE",
+        "preview_url": "/images/JPG/VISMAVIE.jpg",
         "image_src": "/images/JPG/VISMAVIE.jpg",
         "type": "ILLUSTRATION",
         "action_click": "link",
@@ -19,7 +21,7 @@
         "name": "@ADDY",
         "alt": "ADDY",
         "preview_url": "/images/JPG/ADDY000.jpg",
-        "gif_src": "/images/GIF/ADDY.gif",
+        "image_src": "/images/GIF/ADDY.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
         "action_click": "link",
         "hover_gif": true
@@ -27,7 +29,8 @@
     {
         "name": "@KIO",
         "alt": "KIO",
-        "image_src": "/images/JPG/KIO000.jpg",
+        "preview_url": "/images/JPG/KIO000.jpg",
+        "image_src": "/images/GIF/KIO.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
         "action_click": "link",
         "hover_gif": true
@@ -35,7 +38,8 @@
     {
         "name": "VIS_MA_VIE",
         "alt": "VIS_MA_VIE",
-        "image_src": "/images/JPG/VIS.jpg",
+        "preview_url": "/images/JPG/VIS.jpg",
+        "image_src": "/images/GIF/VIS_MA_VIE.gif",
         "type": "MOTION",
         "action_click": "link",
         "hover_gif": true
@@ -43,7 +47,8 @@
     {
         "name": "@REYDO",
         "alt": "REYDO",
-        "image_src": "/images/JPG/REYDO00.jpg",
+        "preview_url": "/images/JPG/REYDO00.jpg",
+        "image_src": "/images/GIF/REYDO.gif",
         "type": "MOTION/ILLUSTRATION",
         "action_click": "link",
         "hover_gif": true
@@ -51,6 +56,7 @@
     {
         "name": "VAMPIRE",
         "alt": "VAMPIRE",
+        "preview_url": "/images/JPG/VAMPIRE.jpg",
         "image_src": "/images/JPG/VAMPIRE.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
@@ -59,6 +65,7 @@
     {
         "name": "HAZBIN_HOTEL",
         "alt": "HAZBIN_HOTEL",
+        "preview_url": "/images/JPG/VAGGIE.jpg",
         "image_src": "/images/JPG/VAGGIE.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
@@ -67,7 +74,8 @@
     {
         "name": "LOGO_RENNES",
         "alt": "LOGO_RENNES",
-        "image_src": "/images/JPG/LOGO000.jpg",
+        "preview_url": "/images/JPG/LOGO000.jpg",
+        "image_src": "/images/GIF/LOGO.gif",
         "type": "IDENTITE_VISUELLE",
         "action_click": "link",
         "hover_gif": true
@@ -75,7 +83,8 @@
     {
         "name": "JURASSIC",
         "alt": "JURASSIC",
-        "image_src": "/images/JPG/DINO000.jpg",
+        "preview_url": "/images/JPG/DINO000.jpg",
+        "image_src": "/images/GIF/DINO.gif",
         "type": "MOTION",
         "action_click": "link",
         "hover_gif": true
@@ -83,7 +92,8 @@
     {
         "name": "VALKYRIANT",
         "alt": "VALKYRIANT",
-        "image_src": "/images/JPG/VALKY67.jpg",
+        "preview_url": "/images/JPG/VALKY67.jpg",
+        "image_src": "/images/GIF/VALKY.gif",
         "type": "IDENTITE_VISUELLE",
         "action_click": "link",
         "hover_gif": true
@@ -91,15 +101,17 @@
     {
         "name": "@TEG0R",
         "alt": "TEG0R",
-        "image_src": "/images/JPG/TEGOR000.jpg",
+        "preview_url": "/images/JPG/TEGOR000.jpg",
+        "image_src": "/images/GIF/TEGOR.gif",
         "type": "MOTION/ILLUSTRATION",
         "action_click": "link",
         "hover_gif": true
     },
     {
         "name": "ECOCLIC",
-        "alt": "COCLIC",
-        "image_src": "/images/JPG/ECO_CLIC084.jpg",
+        "alt": "ECOCLIC",
+        "preview_url": "/images/JPG/ECO_CLIC084.jpg",
+        "image_src": "/images/GIF/ECO_CLIC.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
         "action_click": "link",
         "hover_gif": true
@@ -107,6 +119,7 @@
     {
         "name": "EMOTE_TEG0R",
         "alt": "EMOTE_TEG0R",
+        "preview_url": "/images/JPG/TEGOR.jpg",
         "image_src": "/images/JPG/TEGOR.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
@@ -115,7 +128,8 @@
     {
         "name": "VELO_TOUR",
         "alt": "VELO_TOUR",
-        "image_src": "/images/JPG/VELO.jpg",
+        "preview_url": "/images/JPG/VELO.jpg",
+        "image_src": "/images/GIF/VELO_TOUR.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
         "action_click": "link",
         "hover_gif": true
@@ -123,6 +137,7 @@
     {
         "name": "EMOTE_ADDY",
         "alt": "EMOTE_ADDY",
+        "preview_url": "/images/JPG/ADDY.jpg",
         "image_src": "/images/JPG/ADDY.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
@@ -131,7 +146,8 @@
     {
         "name": "TETRIS",
         "alt": "TETRIS",
-        "image_src": "/images/JPG/TETRIS290.jpg",
+        "preview_url": "/images/JPG/TETRIS290.jpg",
+        "image_src": "/images/GIF/TETRIS.gif",
         "type": "IDENTITE_VISUELLE",
         "action_click": "link",
         "hover_gif": true
@@ -139,6 +155,7 @@
     {
         "name": "DIAMANT",
         "alt": "DIAMANT",
+        "preview_url": "/images/JPG/DIAMANT.jpg",
         "image_src": "/images/JPG/DIAMANT.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
