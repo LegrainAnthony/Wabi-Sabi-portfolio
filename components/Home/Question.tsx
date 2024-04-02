@@ -33,8 +33,8 @@ export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) =>
               <a className={`${Colors.purple}`} href="mailto:beauchamplea27@gmail.com">beauchamplea27@gmail.com</a>
             </div>
             <div className={`${QuestionStyle.medias}`} >
-              <CustomImage classNameContainer={`${QuestionStyle.media}`} src='images/SVG/TWITTER_P.svg' />
-              <CustomImage classNameContainer={`${QuestionStyle.media}`} src='images/SVG/INSTA_P.svg' />
+              <CustomImage classNameContainer={`${QuestionStyle.media}`} src='/images/SVG/TWITTER_P.svg' />
+              <CustomImage classNameContainer={`${QuestionStyle.media}`} src='/images/SVG/INSTA_P.svg' />
             </div>
           </div>
       </ComponentsHomeContainer>
