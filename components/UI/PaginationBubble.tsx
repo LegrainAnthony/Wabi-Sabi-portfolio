@@ -4,8 +4,6 @@ import { PaginationBubbleStyle } from "@/styles"
 export const PaginationBubble: React.FC<PaginationBubbleProps> = ({active, setIndex, bubbleIndex}) => {
     
     const handleClick = () => {
-        console.log(bubbleIndex);
-        
         setIndex(bubbleIndex)
     };
 

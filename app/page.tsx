@@ -75,7 +75,6 @@ const Home: React.FC<HomeProps> = () => {
     if(mounted) {
       const newPosition = position.map((_: any, idx: number) => (idx - index) * 100);
       setPosition(newPosition);
-      console.log(index);
     }
   }, [index, mounted]);
 

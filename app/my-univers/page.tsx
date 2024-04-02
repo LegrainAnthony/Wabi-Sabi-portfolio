@@ -80,8 +80,8 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
 
             if (illustration.action_click === 'external_link') {                  
                   return (
-                  <Link href="https://en.wikipedia.org/wiki/Next.js">
-                    <CustomImage key={index} classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`} src={illustration.preview_url} alt={illustration.alt} />
+                  <Link href="https://en.wikipedia.org/wiki/Next.js" key={index}>
+                    <CustomImage  classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`} src={illustration.preview_url} alt={illustration.alt} />
                   </Link>
                   )
             }

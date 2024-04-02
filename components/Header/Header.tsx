@@ -17,7 +17,6 @@ interface HeaderProps {
 export const Header : React.FC<HeaderProps> = ({className}) => {
     const [navMobileActive, setNavMobileActive] = useState(false);
     const [displayMobileHeader, setDisplayMobileHeader] = useState(false)
-    // console.log(useMatchMedia('(min-width: 1280px)'));
 
 return (
     <div className={`${HeaderStyle.container} ${className}`}>
