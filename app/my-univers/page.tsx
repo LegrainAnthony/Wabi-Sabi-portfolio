@@ -4,15 +4,19 @@ import { FontStyle, MyUniversStyle } from "@/styles";
 import { IllustrationsDatas } from '@/datas'
 import { useEffect, useState } from "react";
 import { Button } from "@/components/UI/Button";
+import { GifComponent } from "@/components/MyUnivers/GifComponent";
+import { PopupComponent } from "@/components/MyUnivers/PopUpComponent";
+
 type MyUniversProps = {};
 
 const MyUnivers: React.FC<MyUniversProps> = () => {
   const [typeDisplayed, setTypeDisplayed] = useState('ALL');
   const [illustrations, setIllustrations] = useState(IllustrationsDatas);
-
+  const [popupIsMounted, setPopupIsMounted] = useState(false)
   const handleChangeType = (type: string) => {
       setTypeDisplayed(type)
   }
+  
 
   const scrollToTop = () => {
       window.scrollTo({
@@ -51,8 +55,22 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
     </div>
     <div className={`${MyUniversStyle.projets__container}`}>
       {illustrations.map((illustration, index) => {
+
+            if (illustration.hover_gif) {
+                  return <GifComponent key={index}  classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`}  preview_src={illustration.preview_url} gif_src={illustration.image_src}  alt={illustration.alt} />
+            }
+
+            if (illustration.action_click === 'popup') {
+                  return <PopupComponent key={index}   classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`}  preview_src={illustration.preview_url} image_src={illustration.image_src}  alt={illustration.alt} />
+            }
+
+
+            if (illustration.action_click === 'link') {
+                  
+            }
+
             return (
-              <CustomImage classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`} src={illustration.preview_url} alt={illustration.alt} />
+              <CustomImage key={index} classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`} src={illustration.preview_url} alt={illustration.alt} />
             )
       })}
     </div>

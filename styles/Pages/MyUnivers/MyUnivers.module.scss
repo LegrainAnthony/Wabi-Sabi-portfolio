@@ -45,8 +45,10 @@
     .illustration__container {
         width: 33.33%;
         height: 100%;
-        .illustration {
 
+
+        .illustration {
+           
         }
     }
 
@@ -57,7 +59,6 @@
     margin-top: 10vw;
     margin-bottom: 20vw;
 }
-
 
 @media screen and (min-width: 1280px) {
     .image__container {
@@ -93,6 +94,11 @@
 
     } 
 
+    .button {
+        font-size: 2.5vw;
+        margin-top: 10vw;
+        margin-bottom: 20vw;
+    }
 
 
     .projets__container {
@@ -118,5 +124,9 @@
 @media screen and (min-width: 1440px) {
     .presentation__container {
         margin-top: 8vw;
+    }
+    
+    .button {
+        font-size: 1.5vw;
     }
 }
