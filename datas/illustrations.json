@@ -14,7 +14,7 @@
         "preview_url": "/images/JPG/VISMAVIE.jpg",
         "image_src": "/images/JPG/VISMAVIE.jpg",
         "type": "ILLUSTRATION",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": false
     },
     {
@@ -23,7 +23,7 @@
         "preview_url": "/images/JPG/ADDY000.jpg",
         "image_src": "/images/GIF/ADDY.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {
@@ -32,7 +32,7 @@
         "preview_url": "/images/JPG/KIO000.jpg",
         "image_src": "/images/GIF/KIO.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {
@@ -41,7 +41,7 @@
         "preview_url": "/images/JPG/VIS.jpg",
         "image_src": "/images/GIF/VIS_MA_VIE.gif",
         "type": "MOTION",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {
@@ -50,7 +50,7 @@
         "preview_url": "/images/JPG/REYDO00.jpg",
         "image_src": "/images/GIF/REYDO.gif",
         "type": "MOTION/ILLUSTRATION",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {
@@ -77,7 +77,7 @@
         "preview_url": "/images/JPG/LOGO000.jpg",
         "image_src": "/images/GIF/LOGO.gif",
         "type": "IDENTITE_VISUELLE",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {
@@ -86,7 +86,7 @@
         "preview_url": "/images/JPG/DINO000.jpg",
         "image_src": "/images/GIF/DINO.gif",
         "type": "MOTION",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {
@@ -95,7 +95,7 @@
         "preview_url": "/images/JPG/VALKY67.jpg",
         "image_src": "/images/GIF/VALKY.gif",
         "type": "IDENTITE_VISUELLE",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {
@@ -104,7 +104,7 @@
         "preview_url": "/images/JPG/TEGOR000.jpg",
         "image_src": "/images/GIF/TEGOR.gif",
         "type": "MOTION/ILLUSTRATION",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {
@@ -113,7 +113,7 @@
         "preview_url": "/images/JPG/ECO_CLIC084.jpg",
         "image_src": "/images/GIF/ECO_CLIC.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {
@@ -131,7 +131,7 @@
         "preview_url": "/images/JPG/VELO.jpg",
         "image_src": "/images/GIF/VELO_TOUR.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {
@@ -149,7 +149,7 @@
         "preview_url": "/images/JPG/TETRIS290.jpg",
         "image_src": "/images/GIF/TETRIS.gif",
         "type": "IDENTITE_VISUELLE",
-        "action_click": "link",
+        "action_click": "interne_link",
         "hover_gif": true
     },
     {

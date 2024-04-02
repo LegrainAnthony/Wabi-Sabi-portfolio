@@ -60,6 +60,15 @@
     margin-bottom: 20vw;
 }
 
+.link__container {
+    .link_image {
+        transition: all 0.1s ease-in-out;
+        &:hover {
+            transform: scale(0.99);
+        }
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .image__container {
         height: 27vw;

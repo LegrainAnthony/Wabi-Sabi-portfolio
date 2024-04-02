@@ -49,7 +49,7 @@ const ProjetPage: React.FC<ProjetPageComponents> = ({ params }) => {
                         return <CustomImage classNameContainer={ProjetPageStyle.slide__image__container} key={index} src={slide.url} alt={slide.alt} width={800} height={800}/>
                     }
                     if(slide.type === "video") {
-                        return  <div className={ProjetPageStyle.slide__image__container}>
+                        return  <div key={index} className={ProjetPageStyle.slide__image__container}>
                         <video className={ProjetPageStyle.slide__image__container} controls >
                             <source src={slide.url} type="video/mp4"/>
                         </video>
