@@ -18,11 +18,11 @@ export const WabisabiComponent: React.FC<HomeComponentProps> = ({ position }) =>
       </TitleContainer>
         <SubTitleContainer className={`${WabisabiStyle.studio__container}`}>
           <p className={`${WabisabiStyle.studio}`}>STUDIO</p>
-          <CustomImage classNameContainer={`${WabisabiStyle.studio__flower__container}`}  src='images/SVG/FLEUR.svg' alt="Fleur"/>
+          <CustomImage classNameContainer={`${WabisabiStyle.studio__flower__container}`}  src='/images/SVG/FLEUR.svg' alt="Fleur"/>
         </SubTitleContainer>
         <div className={`${WabisabiStyle.red__baton__container}`}>
-        <CustomImage classNameContainer={`${WabisabiStyle.red__baton} ${WabisabiStyle.red__baton_first}`} src="images/SVG/RED__BATON.svg" alt="baton rouge"/>
-        <CustomImage classNameContainer={`${WabisabiStyle.red__baton} ${WabisabiStyle.red__baton_second}`} src="images/SVG/RED__BATON.svg" alt="baton rouge"/>
+        <CustomImage classNameContainer={`${WabisabiStyle.red__baton} ${WabisabiStyle.red__baton_first}`} src="/images/SVG/RED__BATON.svg" alt="baton rouge"/>
+        <CustomImage classNameContainer={`${WabisabiStyle.red__baton} ${WabisabiStyle.red__baton_second}`} src="/images/SVG/RED__BATON.svg" alt="baton rouge"/>
         </div>
       <PinkJapContainer className={`${WabisabiStyle.sub_pres__container}`}>
         <p>Design graphique</p>

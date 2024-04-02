@@ -18,7 +18,7 @@ export const GifComponent: React.FC<GifComponentProps> = ({classNameContainer, c
 
     return (
         <div onMouseEnter={handleMouseHover} onMouseLeave={handleMouseHover} className={classNameContainer} >
-            <Image style={{width: '100%', height: '100%'}} className={classNameImage} src={!isHover ? preview_src : gif_src} alt={alt} width={300} height={300}/>
+            <Image style={{width: '100%', height: '100%'}} className={classNameImage} src={!isHover ? preview_src : gif_src} alt={alt} width={300} height={300} unoptimized/>
         </div>
     )
 }

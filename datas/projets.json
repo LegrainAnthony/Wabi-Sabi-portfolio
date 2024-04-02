@@ -1,14 +1,42 @@
 [
     {
-        "name": "",
-        "cover_image": "",
+        "slug": "test-1",
+        "name": "Mon premier projet",
+        "subtitle": "Blablabla",
+        "cover": {
+            "url": "/projet/bannieres/BANNIERE_ADDY.jpg",
+            "alt": "test alt"
+        },
         "description": [
-            "Je suis un text"
+            "Je suis un text",
+            "second text",
+            "troisieme text"
         ],
-        "images": [
+        "slides": [
             {
-                "url": "",
-                "alt": ""
+                "url": "/projet/slides/ADDY/PROJET_ADDY-1.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/projet/slides/ADDY/PROJET_ADDY-2.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/projet/slides/ADDY/PROJET_ADDY-4.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/projet/slides/ADDY/SCENE_INTRO_ADDY2.mp4",
+                "alt": "test alt",
+                "type": "video"
+            },
+            {
+                "url": "/projet/slides/ADDY/SCENE_INTRO_ADDY.mp4",
+                "alt": "test alt",
+                "type": "video"
             }
         ]
     }

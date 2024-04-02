@@ -14,7 +14,7 @@ export const PageContainer: React.FC<PageContainerProps> = ({ children }) => {
         className={`${GlobalStyle.background} ${GlobalStyle.scrollable}` }
         >
         <img
-          src="images/SVG/FOND.svg"
+          src="/images/SVG/FOND.svg"
           className={`${GlobalStyle.background__image} ${GlobalStyle.scrollable__image}` }
         />
         </div>

@@ -14,8 +14,8 @@ export const NavigationMobile: React.FC<NavigationMobileProps> = ({navMobileActi
                 <p className={`${NavigationMobileStyle.test}`}>ABOUT ME</p>
                 <p className={`${NavigationMobileStyle.test}`}>CONTACT</p>
                 <div className={`${NavigationMobileStyle.medias__container}`} >
-                    <CustomImage classNameContainer={`${NavigationMobileStyle.media}`} src='images/SVG/INSTA.svg' />
-                    <CustomImage src='images/SVG/TWITTER.svg' />
+                    <CustomImage classNameContainer={`${NavigationMobileStyle.media}`} src='/images/SVG/INSTA.svg' />
+                    <CustomImage src='/images/SVG/TWITTER.svg' />
                 </div>
                </div>
         </div>

@@ -95,7 +95,7 @@ const Home: React.FC<HomeProps> = () => {
     className={GlobalStyle.background}
     >
     <img
-      src="images/SVG/FOND.svg"
+      src="/images/SVG/FOND.svg"
       className={GlobalStyle.background__image}
     />
     <Header />
@@ -109,9 +109,9 @@ const Home: React.FC<HomeProps> = () => {
           return <PaginationBubble key={idx} active={idx === index} bubbleIndex={idx} setIndex={setIndex}/>
         })}
       </div>
-        <CustomImage classNameContainer={`${HomeStyle.down__container} ${index === 3 ? `${HomeStyle.down__active}` : ''}`} src="images/SVG/DOWN.svg" />
+        <CustomImage classNameContainer={`${HomeStyle.down__container} ${index === 3 ? `${HomeStyle.down__active}` : ''}`} src="/images/SVG/DOWN.svg" />
     </div>
-    </div>
+      </div>
   );
 };
 

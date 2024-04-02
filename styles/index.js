@@ -17,6 +17,7 @@ import AboutStyle from "./Pages/Home/about.module.scss";
 import QuestionStyle from "./Pages/Home/question.module.scss";
 import UniversStyle from "./Pages/Home/univers.module.scss";
 import MyUniversStyle from "./Pages/MyUnivers/MyUnivers.module.scss";
+import ProjetPageStyle from "./Pages/Projet/Projet.module.scss";
 // Header
 
 import HeaderStyle from "./Header/header.module.scss";
@@ -37,5 +38,6 @@ export {
 	PaginationBubbleStyle,
 	NavigationMobileStyle,
 	NavigationDesktopStyle,
-	MyUniversStyle
+	MyUniversStyle,
+	ProjetPageStyle
 };

@@ -1,0 +1,36 @@
+
+.bannier__container {
+    width: 100vw;
+    position: relative;
+    margin-top: -8vw;
+    .image__container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        z-index: 1;
+    }
+
+    .presentation__container {
+        position: absolute;
+        bottom: -2vw;
+
+    }
+    
+    @media screen and (min-width: 1280px) {
+        margin-top: -11vw;
+    }
+
+    @media screen and (min-width: 1440px) {
+        margin-top: -10vw;
+    }
+}
+
+.projet__slides__container {
+    margin-top: 10vw;
+    width: 100vw;
+
+    .slide__image__container {
+        width: 100%;
+        height: 100%;
+    }
+}

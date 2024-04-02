@@ -26,7 +26,7 @@ return (
         </p>
         <CustomImage 
         classNameContainer={`${HeaderStyle.flower__container} ${navMobileActive ? `${HeaderStyle.flower_active}` : ''}`}
-        src={'images/SVG/FLEUR_W.svg'} 
+        src={'/images/SVG/FLEUR_W.svg'} 
         alt="white flower logo" 
         height={300} 
         width={300} 

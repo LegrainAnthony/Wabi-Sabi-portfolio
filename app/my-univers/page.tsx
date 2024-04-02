@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/UI/Button";
 import { GifComponent } from "@/components/MyUnivers/GifComponent";
 import { PopupComponent } from "@/components/MyUnivers/PopUpComponent";
+import { useRouter } from "next/navigation";
 
 type MyUniversProps = {};
 
@@ -16,6 +17,8 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
   const handleChangeType = (type: string) => {
       setTypeDisplayed(type)
   }
+
+  const router = useRouter();
   
 
   const scrollToTop = () => {
@@ -64,14 +67,14 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
                   return <PopupComponent key={index}   classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`}  preview_src={illustration.preview_url} image_src={illustration.image_src}  alt={illustration.alt} />
             }
 
-
-            if (illustration.action_click === 'link') {
-                  
+            if (illustration.action_click === 'link') {                  
+                  return (
+                    <CustomImage key={index} classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`} src={illustration.preview_url} alt={illustration.alt} onClickContainer={() => {
+                        router.push(`/Projet/test-1`)
+                    }}/>
+                  )
             }
 
-            return (
-              <CustomImage key={index} classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`} src={illustration.preview_url} alt={illustration.alt} />
-            )
       })}
     </div>
      <Button className={`${MyUniversStyle.button}`} buttonText="Remonter la page" onClick={scrollToTop}/>
