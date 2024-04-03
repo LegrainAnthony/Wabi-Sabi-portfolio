@@ -60,35 +60,28 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
     <div className={`${MyUniversStyle.projets__container}`}>
       {illustrations.map((illustration, index) => {
 
-            if (illustration.action_click === 'interne_link' && illustration.hover_gif) {
-                  return <GifComponent key={index}  classNameContainer={`${MyUniversStyle.illustration__container} ${MyUniversStyle.link__container}`} classNameImage={`${MyUniversStyle.illustration} ${MyUniversStyle.link_image}`}  preview_src={illustration.preview_url} gif_src={illustration.image_src}  alt={illustration.alt} onClickContainer={() => {
-                        router.push(`/Projet/test-1`)
-                    }}/>
+            if (illustration.action_click === 'link' && illustration.hover_gif) {
+                  return (
+                   <Link href={illustration.link} key={index} className={`${MyUniversStyle.illustration__container} ${MyUniversStyle.link__container}`}>
+                        <GifComponent key={index}  classNameImage={`${MyUniversStyle.illustration} ${MyUniversStyle.link_image}`}  preview_src={illustration.preview_url} gif_src={illustration.image_src}  alt={illustration.alt} />
+                  </Link>
+                  )
             }
 
             if (illustration.action_click === 'popup') {
                   return <PopupComponent key={index}   classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`}  preview_src={illustration.preview_url} image_src={illustration.image_src}  alt={illustration.alt} />
             }
 
-            if (illustration.action_click === 'interne_link') {                  
+            if (illustration.action_click === 'link') {                  
                   return (
-                    <CustomImage key={index} classNameContainer={`${MyUniversStyle.illustration__container} ${MyUniversStyle.link__container}`} classNameImage={`${MyUniversStyle.illustration} ${MyUniversStyle.link_image}`} src={illustration.preview_url} alt={illustration.alt} onClickContainer={() => {
-                        router.push(`/Projet/test-1`)
-                    }}/>
+                        <Link href={illustration.link} key={index} className={`${MyUniversStyle.link__container} ${MyUniversStyle.illustration__container}`}>
+                              <CustomImage classNameContainer={`${MyUniversStyle.illustration}`} classNameImage={`${MyUniversStyle.illustration} ${MyUniversStyle.link_image}`} src={illustration.preview_url} alt={illustration.alt}/>
+                        </Link>
                   )
             }
-
-            if (illustration.action_click === 'external_link') {                  
-                  return (
-                  <Link href="https://en.wikipedia.org/wiki/Next.js" key={index}>
-                    <CustomImage  classNameContainer={`${MyUniversStyle.illustration__container}`} classNameImage={`${MyUniversStyle.illustration}`} src={illustration.preview_url} alt={illustration.alt} />
-                  </Link>
-                  )
-            }
-
       })}
     </div>
-     <Button className={`${MyUniversStyle.button}`} buttonText="Remonter la page" onClick={scrollToTop}/>
+            <Button className={`${MyUniversStyle.button}`} buttonText="Remonter la page" onClick={scrollToTop}/>
     </PageContainer>
   );
 };

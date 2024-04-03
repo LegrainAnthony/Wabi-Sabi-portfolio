@@ -2,12 +2,12 @@ import { useState } from "react"
 import { CustomImage } from "../UI"
 import Image from "next/image";
 interface GifComponentProps {
-    classNameContainer: string,
-    classNameImage: string, 
+    classNameContainer?: string,
+    classNameImage?: string, 
     preview_src: string,
     gif_src: string,
     alt: string
-    onClickContainer: () => void
+    onClickContainer?: () => void
 }
 export const GifComponent: React.FC<GifComponentProps> = ({classNameContainer, classNameImage, preview_src, gif_src,  alt, onClickContainer}) => {
 
