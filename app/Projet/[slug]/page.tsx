@@ -5,6 +5,7 @@ import { ProjetsData } from "@/datas";
 import { useEffect, useState } from "react";
 import Error from "next/error";
 import { Button } from "@/components/UI/Button";
+import { Footer } from "@/components/Footer/Footer";
 interface ProjetPageComponents {
   params: { slug: string };
 }
@@ -69,6 +70,7 @@ const ProjetPage: React.FC<ProjetPageComponents> = ({ params }) => {
             </div>
 
             <Button buttonText="Remonter la page" className={`${ProjetPageStyle.button}`} onClick={scrollToTop}/>
+            <Footer />
         </PageContainer>
     )  
 };

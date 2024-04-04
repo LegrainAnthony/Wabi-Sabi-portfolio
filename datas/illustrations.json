@@ -27,7 +27,7 @@
         "type": "IDENTITE_VISUELLE/MOTION",
         "action_click": "link",
         "hover_gif": true,
-        "link": "/Projet/ADDY"
+        "link": "/projet/ADDY"
     },
     {
         "name": "@KIO",
