@@ -12,6 +12,7 @@ interface ProjetPageComponents {
 interface projetData {
      slug: string;
      name: string;
+     date: string;
      cover: {url: string; alt: string;};
      description: string[];
      subtitle: string;
