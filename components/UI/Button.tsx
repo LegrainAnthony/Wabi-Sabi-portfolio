@@ -1,5 +1,7 @@
 import { CustomButtonStyle } from '@/styles';
 import { CustomButtonProps } from '@/types'
+import Link from 'next/link';
+
 export const Button: React.FC<CustomButtonProps> =  ({className, buttonText, onClick}) => {
 
     return (

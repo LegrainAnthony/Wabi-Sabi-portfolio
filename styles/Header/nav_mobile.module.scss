@@ -32,7 +32,11 @@
     text-align: end;
     justify-content: space-between;
 
-    .test {
+    .link {
+        text-decoration: none;
+    }
+    
+    .text {
         font-size: 15vw;
         color: #fff;
         margin-right: 10vw;

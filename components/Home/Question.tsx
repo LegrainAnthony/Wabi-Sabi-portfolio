@@ -3,6 +3,7 @@ import { HomeComponentProps, deviceProperties } from "@/types";
 import { useMatchMedia } from "@/hooks";
 import { calculTopPosition } from '@/helpers';
 import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
+import Link from "next/link";
 
 export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) => {
   const deviceSizes: deviceProperties[] = 
@@ -33,8 +34,12 @@ export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) =>
               <a className={`${Colors.purple}`} href="mailto:beauchamplea27@gmail.com">beauchamplea27@gmail.com</a>
             </div>
             <div className={`${QuestionStyle.medias}`} >
-              <CustomImage classNameContainer={`${QuestionStyle.media}`} src='images/SVG/TWITTER_P.svg' />
-              <CustomImage classNameContainer={`${QuestionStyle.media}`} src='images/SVG/INSTA_P.svg' />
+            <Link href={'https://www.instagram.com/leart0_0/'} rel="noopener noreferrer" target="_blank">
+              <CustomImage classNameContainer={`${QuestionStyle.media}`} src='/images/SVG/TWITTER_P.svg' />
+            </Link>
+            <Link href={'https://twitter.com/Avalorrs'} rel="noopener noreferrer" target="_blank">
+              <CustomImage classNameContainer={`${QuestionStyle.media}`} src='/images/SVG/INSTA_P.svg' />
+            </Link>
             </div>
           </div>
       </ComponentsHomeContainer>

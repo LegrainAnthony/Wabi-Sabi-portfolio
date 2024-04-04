@@ -6,7 +6,8 @@
         "image_src": "/images/JPG/BUREAU.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
-        "hover_gif": false
+        "hover_gif": false,
+        "link": ""
     },
     {
         "name": "VIS_MA_VIE",
@@ -15,7 +16,8 @@
         "image_src": "/images/JPG/VISMAVIE.jpg",
         "type": "ILLUSTRATION",
         "action_click": "link",
-        "hover_gif": false
+        "hover_gif": false,
+        "link": "https://etu.gildasp.fr/mpro2021/extras/VIS_MA_VIE/index.html"
     },
     {
         "name": "@ADDY",
@@ -24,7 +26,8 @@
         "image_src": "/images/GIF/ADDY.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": "/projet/ADDY"
     },
     {
         "name": "@KIO",
@@ -33,7 +36,8 @@
         "image_src": "/images/GIF/KIO.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": ""
     },
     {
         "name": "VIS_MA_VIE",
@@ -42,7 +46,8 @@
         "image_src": "/images/GIF/VIS_MA_VIE.gif",
         "type": "MOTION",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": ""
     },
     {
         "name": "@REYDO",
@@ -51,7 +56,8 @@
         "image_src": "/images/GIF/REYDO.gif",
         "type": "MOTION/ILLUSTRATION",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": ""
     },
     {
         "name": "VAMPIRE",
@@ -60,7 +66,8 @@
         "image_src": "/images/JPG/VAMPIRE.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
-        "hover_gif": false
+        "hover_gif": false,
+        "link": ""
     },
     {
         "name": "HAZBIN_HOTEL",
@@ -69,7 +76,8 @@
         "image_src": "/images/JPG/VAGGIE.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
-        "hover_gif": false
+        "hover_gif": false,
+        "link": ""
     },
     {
         "name": "LOGO_RENNES",
@@ -78,7 +86,8 @@
         "image_src": "/images/GIF/LOGO.gif",
         "type": "IDENTITE_VISUELLE",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": ""
     },
     {
         "name": "JURASSIC",
@@ -87,7 +96,8 @@
         "image_src": "/images/GIF/DINO.gif",
         "type": "MOTION",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": ""
     },
     {
         "name": "VALKYRIANT",
@@ -96,7 +106,8 @@
         "image_src": "/images/GIF/VALKY.gif",
         "type": "IDENTITE_VISUELLE",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": ""
     },
     {
         "name": "@TEG0R",
@@ -105,7 +116,8 @@
         "image_src": "/images/GIF/TEGOR.gif",
         "type": "MOTION/ILLUSTRATION",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": ""
     },
     {
         "name": "ECOCLIC",
@@ -114,7 +126,8 @@
         "image_src": "/images/GIF/ECO_CLIC.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": ""
     },
     {
         "name": "EMOTE_TEG0R",
@@ -123,7 +136,8 @@
         "image_src": "/images/JPG/TEGOR.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
-        "hover_gif": false
+        "hover_gif": false,
+        "link": ""
     },
     {
         "name": "VELO_TOUR",
@@ -132,7 +146,8 @@
         "image_src": "/images/GIF/VELO_TOUR.gif",
         "type": "IDENTITE_VISUELLE/MOTION",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": ""
     },
     {
         "name": "EMOTE_ADDY",
@@ -141,7 +156,8 @@
         "image_src": "/images/JPG/ADDY.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
-        "hover_gif": false
+        "hover_gif": false,
+        "link": ""
     },
     {
         "name": "TETRIS",
@@ -150,7 +166,8 @@
         "image_src": "/images/GIF/TETRIS.gif",
         "type": "IDENTITE_VISUELLE",
         "action_click": "link",
-        "hover_gif": true
+        "hover_gif": true,
+        "link": ""
     },
     {
         "name": "DIAMANT",
@@ -159,6 +176,7 @@
         "image_src": "/images/JPG/DIAMANT.jpg",
         "type": "ILLUSTRATION",
         "action_click": "popup",
-        "hover_gif": false
+        "hover_gif": false,
+        "link": ""
     }
 ]

@@ -4,6 +4,7 @@ import { useMatchMedia } from "@/hooks";
 import { calculTopPosition } from '@/helpers';
 import { CustomImage, TitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
 import { Button } from "../UI/Button";
+import Link from "next/link";
 
 export const AboutComponent: React.FC<HomeComponentProps> = ({ position }) => {
   const deviceSizes: deviceProperties[] = 
@@ -24,7 +25,9 @@ export const AboutComponent: React.FC<HomeComponentProps> = ({ position }) => {
             <p>Qui suis-je ?,</p>
             <p>Quelles sont mes passions ?</p>
           </PinkJapContainer>
-          <Button className={AboutStyle.button} buttonText="EN SAVOIR PLUS"/>
+          <Link href={'/about'}>
+            <Button className={AboutStyle.button} buttonText="EN SAVOIR PLUS"/>
+          </Link>
       </ComponentsHomeContainer>
   );
 };

@@ -5,6 +5,7 @@ import { useMatchMedia } from "@/hooks";
 import { calculTopPosition } from '@/helpers';
 import { ComponentsHomeContainer, TitleContainer, SubTitleContainer, PinkJapContainer } from "@/components/UI";
 import { Button } from "../UI/Button";
+import Link from 'next/link';
 
 export const UniversComponent: React.FC<HomeComponentProps> = ({ position }) => {
   const deviceSizes: deviceProperties[] = 
@@ -34,7 +35,9 @@ export const UniversComponent: React.FC<HomeComponentProps> = ({ position }) => 
             <p>illustration,identité</p>
             <p>visuelle ...</p>
           </PinkJapContainer>
+          <Link href={'/my-univers'} >
           <Button className={UniversStyle.button} buttonText="DECOUVRIR"/>
+          </Link>
       </ComponentsHomeContainer>
   );
 };

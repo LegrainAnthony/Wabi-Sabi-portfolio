@@ -6,6 +6,7 @@ import { GlobalStyle } from "@/styles";
 import './reset.css'
 import { Header } from "@/components/Header/Header";
 import { useState } from "react";
+import { AntdRegistry } from "@ant-design/nextjs-registry";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-          {children}
+      <AntdRegistry>{children}</AntdRegistry>
         </body>
   </html>
   );

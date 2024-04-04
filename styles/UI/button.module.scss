@@ -2,8 +2,18 @@
     border: 2px solid #ff476b;
     border-radius: 25px;
     padding: 2vw 7vw;
+    transition: all 0.05s ease-in-out;
     .button__text {
         color: #ff476b
+    }
+
+    &:hover {
+        transform: scale(1.1);
+        background-color: #ff476b;
+
+        .button__text {
+            color: white;
+        }
     }
 }
 

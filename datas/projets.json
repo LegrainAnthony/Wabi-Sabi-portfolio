@@ -1,14 +1,43 @@
 [
     {
-        "name": "",
-        "cover_image": "",
+        "slug": "ADDY",
+        "name": "Mon premier projet",
+        "subtitle": "Bla bla bla",
+        "date": "2023",
+        "cover": {
+            "url": "/images/projet/bannieres/BANNIERE_ADDY.png",
+            "alt": "test alt"
+        },
         "description": [
-            "Je suis un text"
+            "Je suis un text ",
+            "second text",
+            "troisieme text"
         ],
-        "images": [
+        "slides": [
             {
-                "url": "",
-                "alt": ""
+                "url": "/images/projet/slides/ADDY/PROJET_ADDY_1.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/ADDY/PROJET_ADDY-2.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/ADDY/PROJET_ADDY-4.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/videos/projet/slides/ADDY/SCENE_INTRO_ADDY.mp4",
+                "alt": "test alt",
+                "type": "video"
+            },
+            {
+                "url": "/videos/projet/slides/ADDY/SCENE_OUTRO_ADDY.mp4",
+                "alt": "test alt",
+                "type": "video"
             }
         ]
     }

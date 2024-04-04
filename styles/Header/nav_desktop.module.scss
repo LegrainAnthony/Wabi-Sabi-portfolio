@@ -16,17 +16,15 @@
 
 .medias__container {
     display: flex;
-    flex-direction: row;
-    width: 8vw;
-    margin-right: 2vw;
-    height: 100%;
-
     .media {
         margin-right: 2vw;
+        width: 3vw;
     }
 
-    @media screen and (min-width: 1440px) {
-        width: 6vw;
+    @media screen and (min-width: 1280px) {
+        .media {
+            width: 2vw;
+        }
     }
 }
 .contact__container {
@@ -57,3 +55,6 @@
 }
 
 
+.white {
+    color: white
+};

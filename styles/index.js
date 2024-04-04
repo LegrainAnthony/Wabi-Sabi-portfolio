@@ -17,11 +17,14 @@ import AboutStyle from "./Pages/Home/about.module.scss";
 import QuestionStyle from "./Pages/Home/question.module.scss";
 import UniversStyle from "./Pages/Home/univers.module.scss";
 import MyUniversStyle from "./Pages/MyUnivers/MyUnivers.module.scss";
+import ProjetPageStyle from "./Pages/Projet/Projet.module.scss";
 // Header
 
 import HeaderStyle from "./Header/header.module.scss";
 import NavigationMobileStyle from "./Header/nav_mobile.module.scss";
 import NavigationDesktopStyle from "./Header/nav_desktop.module.scss";
+// Footer
+import FooterStyle from "./Footer/footer.module.scss"
 
 export {
 	GlobalStyle,
@@ -37,5 +40,7 @@ export {
 	PaginationBubbleStyle,
 	NavigationMobileStyle,
 	NavigationDesktopStyle,
-	MyUniversStyle
+	MyUniversStyle,
+	ProjetPageStyle,
+	FooterStyle
 };

@@ -75,7 +75,6 @@ const Home: React.FC<HomeProps> = () => {
     if(mounted) {
       const newPosition = position.map((_: any, idx: number) => (idx - index) * 100);
       setPosition(newPosition);
-      console.log(index);
     }
   }, [index, mounted]);
 
@@ -95,10 +94,10 @@ const Home: React.FC<HomeProps> = () => {
     className={GlobalStyle.background}
     >
     <img
-      src="images/SVG/FOND.svg"
+      src="/images/SVG/FOND.svg"
       className={GlobalStyle.background__image}
     />
-    <Header />
+    <Header white={false}/>
     <div className={HomeStyle.container}>
 			<WabisabiComponent position={position[0]} />
 			<UniversComponent position={position[1]} />
@@ -109,9 +108,9 @@ const Home: React.FC<HomeProps> = () => {
           return <PaginationBubble key={idx} active={idx === index} bubbleIndex={idx} setIndex={setIndex}/>
         })}
       </div>
-        <CustomImage classNameContainer={`${HomeStyle.down__container} ${index === 3 ? `${HomeStyle.down__active}` : ''}`} src="images/SVG/DOWN.svg" />
+        <CustomImage classNameContainer={`${HomeStyle.down__container} ${index === 3 ? `${HomeStyle.down__active}` : ''}`} src="/images/SVG/DOWN.svg" />
     </div>
-    </div>
+      </div>
   );
 };
 
