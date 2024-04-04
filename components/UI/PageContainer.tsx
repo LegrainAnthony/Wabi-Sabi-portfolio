@@ -1,4 +1,4 @@
-import { GlobalStyle } from "@/styles";
+import { GlobalStyle, HeaderStyle } from "@/styles";
 import { Header } from "../Header/Header";
 import { Children } from "react";
 interface PageContainerProps {
@@ -18,7 +18,7 @@ export const PageContainer: React.FC<PageContainerProps> = ({ children }) => {
           className={`${GlobalStyle.background__image} ${GlobalStyle.scrollable__image}` }
         />
         </div>
-        <Header className={`${GlobalStyle.scrollable__image}`} />
+        <Header className={`${GlobalStyle.scrollable__image} ${HeaderStyle.no_stiky}`} white={true} />
         {children}
         </div>
     )

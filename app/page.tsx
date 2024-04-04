@@ -97,7 +97,7 @@ const Home: React.FC<HomeProps> = () => {
       src="/images/SVG/FOND.svg"
       className={GlobalStyle.background__image}
     />
-    <Header />
+    <Header white={false}/>
     <div className={HomeStyle.container}>
 			<WabisabiComponent position={position[0]} />
 			<UniversComponent position={position[1]} />

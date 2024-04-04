@@ -10,19 +10,20 @@ import Link from "next/link";
 
 interface HeaderProps {
  className?: string
+ white?: boolean 
 };
 
 
 
 
-export const Header : React.FC<HeaderProps> = ({className}) => {
+export const Header : React.FC<HeaderProps> = ({className, white}) => {
     const [navMobileActive, setNavMobileActive] = useState(false);
     const [displayMobileHeader, setDisplayMobileHeader] = useState(false)
-
+    
 return (
     <div className={`${HeaderStyle.container} ${className}`}>
         <Link href={'/'} className={`${GlobalStyle.link}`}>
-       <p className={`${HeaderStyle.name} ${FontStyle.jap}`}>
+       <p className={`${white ? `${HeaderStyle.white}` : `${HeaderStyle.purple}`} ${HeaderStyle.name} ${FontStyle.jap} ` } >
         Léa Beauchamp
         </p>
         </Link>
@@ -35,7 +36,7 @@ return (
         onClickContainer={() => {
             setNavMobileActive(!navMobileActive)
         }}/>
-        <NavigationDesktop/>
+        <NavigationDesktop white={white}/>
         <NavigationMobile navMobileActive={navMobileActive} />
 
     </div>

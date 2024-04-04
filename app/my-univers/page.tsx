@@ -42,7 +42,7 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
   
   return (
     <PageContainer>
-    <CustomImage  classNameContainer={`${MyUniversStyle.image__container}`}/>
+    <CustomImage  classNameContainer={`${MyUniversStyle.image__container}`} src='/images/JPG/BANNIERE_GALLERIE.png' width={1600} height={1600}/>
     <div className={`${MyUniversStyle.presentation__container}`}>
        <TitleContainer  className={`${MyUniversStyle.title__Container}`} >
         <p className={`${MyUniversStyle.title}`}>Mon univers</p>
@@ -74,7 +74,7 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
 
             if (illustration.action_click === 'link') {                  
                   return (
-                        <Link href={illustration.link} key={index} className={`${MyUniversStyle.link__container} ${MyUniversStyle.illustration__container}`}>
+                        <Link rel="noopener noreferrer" target="_blank" href={illustration.link} key={index} className={`${MyUniversStyle.link__container} ${MyUniversStyle.illustration__container}`}>
                               <CustomImage classNameContainer={`${MyUniversStyle.illustration}`} classNameImage={`${MyUniversStyle.illustration} ${MyUniversStyle.link_image}`} src={illustration.preview_url} alt={illustration.alt}/>
                         </Link>
                   )

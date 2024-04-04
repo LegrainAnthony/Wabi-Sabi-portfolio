@@ -2,13 +2,14 @@
     {
         "slug": "ADDY",
         "name": "Mon premier projet",
-        "subtitle": "Blablabla",
+        "subtitle": "Bla bla bla",
+        "date": "2023",
         "cover": {
-            "url": "/images/projet/bannieres/BANNIERE_ADDY.jpg",
+            "url": "/images/projet/bannieres/BANNIERE_ADDY.png",
             "alt": "test alt"
         },
         "description": [
-            "Je suis un text",
+            "Je suis un text ",
             "second text",
             "troisieme text"
         ],
