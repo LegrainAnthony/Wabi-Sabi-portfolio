@@ -1,17 +1,17 @@
 [
     {
         "slug": "ADDY",
-        "name": "Mon premier projet",
-        "subtitle": "Bla bla bla",
+        "name": "Addy",
+        "subtitle": "Assets de stream",
         "date": "2023",
         "cover": {
             "url": "/images/projet/bannieres/BANNIERE_ADDY.png",
             "alt": "test alt"
         },
         "description": [
-            "Je suis un text ",
-            "second text",
-            "troisieme text"
+            "Réalisation de l’identité et des illustrations",
+            "de la nouvel DA 2024 de Addy"
+
         ],
         "slides": [
             {
@@ -25,7 +25,54 @@
                 "type": "image"
             },
             {
+                "url": "/videos/projet/slides/ADDY/SCENE_INTRO_ADDY.mp4",
+                "alt": "test alt",
+                "type": "video"
+            },
+            {
                 "url": "/images/projet/slides/ADDY/PROJET_ADDY-4.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/ADDY/PROJET_ADDY-5.png",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/ADDY/PROJET_ADDY-6.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/videos/projet/slides/ADDY/SCENE_OUTRO_ADDY.mp4",
+                "alt": "test alt",
+                "type": "video"
+            }
+        ]
+    },
+    {
+        "slug": "VIS_MA_VIE",
+        "name": "Vis Ma Vie",
+        "subtitle": "Jeu narratif",
+        "date": "2023",
+        "cover": {
+            "url": "/images/projet/bannieres/BANNIERE_VIS.png",
+            "alt": "test alt"
+        },
+        "description": [
+            "Jeu mobile narratif qui sensibilise",
+            "au sexisme, à l'éducation affective et sexuelle"
+
+        ],
+        "slides": [
+            {
+                "url": "/images/projet/slides/ADDY/PROJET_ADDY_1.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/ADDY/PROJET_ADDY-2.jpg",
                 "alt": "test alt",
                 "type": "image"
             },
@@ -35,9 +82,65 @@
                 "type": "video"
             },
             {
+                "url": "/images/projet/slides/ADDY/PROJET_ADDY-4.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/ADDY/PROJET_ADDY-5.png",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/ADDY/PROJET_ADDY-6.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
                 "url": "/videos/projet/slides/ADDY/SCENE_OUTRO_ADDY.mp4",
                 "alt": "test alt",
                 "type": "video"
+            }
+        ]
+    },
+    {
+        "slug": "KIO",
+        "name": "Kiosssou",
+        "subtitle": "Assets de stream",
+        "date": "2023",
+        "cover": {
+            "url": "/images/projet/bannieres/BANNIERE_KIO.png",
+            "alt": "test alt"
+        },
+        "description": [
+            "Réalisation de l’identité et des illustrations",
+            "de la nouvel DA 2023 de Kiossou"
+        ],
+        "slides": [
+            {
+                "url": "/images/projet/slides/KIO/KIO_1.png",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/KIO/KIO_2.png",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/KIO/KIO_3.png",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/videos/projet/slides/KIO/INTRO_KIO.mp4",
+                "alt": "test alt",
+                "type": "video"
+            },
+            {
+                "url": "/images/projet/slides/KIO/KIO_5.png",
+                "alt": "test alt",
+                "type": "image"
             }
         ]
     }

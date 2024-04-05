@@ -56,6 +56,7 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
           <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('ILLUSTRATION')}} >ILLUSTRATION</p>
           <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('MOTION')}} >MOTION DESIGN</p>
           <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('IDENTITE_VISUELLE')}} >IDENTITÉ VISUELLE</p>
+          <p className={`${MyUniversStyle.type}`} onClick={() => {handleChangeType('STREAM')}} >ASSETS STREAM</p>
     </div>
     <div className={`${MyUniversStyle.projets__container}`}>
       {illustrations.map((illustration, index) => {
@@ -81,7 +82,7 @@ const MyUnivers: React.FC<MyUniversProps> = () => {
             }
       })}
     </div>
-            <Button className={`${MyUniversStyle.button}`} buttonText="Remonter la page" onClick={scrollToTop}/>
+            <Button className={`${MyUniversStyle.button} ${FontStyle.jap}`} buttonText="REMONTER LA PAGE" onClick={scrollToTop}/>
     </PageContainer>
   );
 };

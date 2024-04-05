@@ -24,7 +24,7 @@
         "alt": "ADDY",
         "preview_url": "/images/JPG/ADDY000.jpg",
         "image_src": "/images/GIF/ADDY.gif",
-        "type": "IDENTITE_VISUELLE/MOTION",
+        "type": "IDENTITE_VISUELLE/MOTION/STREAM",
         "action_click": "link",
         "hover_gif": true,
         "link": "/projet/ADDY"
@@ -34,10 +34,10 @@
         "alt": "KIO",
         "preview_url": "/images/JPG/KIO000.jpg",
         "image_src": "/images/GIF/KIO.gif",
-        "type": "IDENTITE_VISUELLE/MOTION",
+        "type": "IDENTITE_VISUELLE/MOTION/STREAM",
         "action_click": "link",
         "hover_gif": true,
-        "link": ""
+        "link": "/projet/KIO"
     },
     {
         "name": "VIS_MA_VIE",
@@ -47,14 +47,14 @@
         "type": "MOTION",
         "action_click": "link",
         "hover_gif": true,
-        "link": ""
+        "link": "/projet/VIS_MA_VIE"
     },
     {
         "name": "@REYDO",
         "alt": "REYDO",
         "preview_url": "/images/JPG/REYDO00.jpg",
         "image_src": "/images/GIF/REYDO.gif",
-        "type": "MOTION/ILLUSTRATION",
+        "type": "MOTION/ILLUSTRATION/STREAM",
         "action_click": "link",
         "hover_gif": true,
         "link": ""
@@ -94,7 +94,7 @@
         "alt": "JURASSIC",
         "preview_url": "/images/JPG/DINO000.jpg",
         "image_src": "/images/GIF/DINO.gif",
-        "type": "MOTION",
+        "type": "MOTION/STREAM",
         "action_click": "link",
         "hover_gif": true,
         "link": ""
@@ -114,7 +114,7 @@
         "alt": "TEG0R",
         "preview_url": "/images/JPG/TEGOR000.jpg",
         "image_src": "/images/GIF/TEGOR.gif",
-        "type": "MOTION/ILLUSTRATION",
+        "type": "MOTION/ILLUSTRATION/STREAM",
         "action_click": "link",
         "hover_gif": true,
         "link": ""
@@ -134,7 +134,7 @@
         "alt": "EMOTE_TEG0R",
         "preview_url": "/images/JPG/TEGOR.jpg",
         "image_src": "/images/JPG/TEGOR.jpg",
-        "type": "ILLUSTRATION",
+        "type": "ILLUSTRATION/STREAM",
         "action_click": "popup",
         "hover_gif": false,
         "link": ""
@@ -154,7 +154,7 @@
         "alt": "EMOTE_ADDY",
         "preview_url": "/images/JPG/ADDY.jpg",
         "image_src": "/images/JPG/ADDY.jpg",
-        "type": "ILLUSTRATION",
+        "type": "ILLUSTRATION/STREAM",
         "action_click": "popup",
         "hover_gif": false,
         "link": ""
