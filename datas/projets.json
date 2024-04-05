@@ -67,39 +67,34 @@
         ],
         "slides": [
             {
-                "url": "/images/projet/slides/ADDY/PROJET_ADDY_1.jpg",
+                "url": "/images/projet/slides/VIS_MA_VIE/VIS_1.png",
                 "alt": "test alt",
                 "type": "image"
             },
             {
-                "url": "/images/projet/slides/ADDY/PROJET_ADDY-2.jpg",
-                "alt": "test alt",
-                "type": "image"
-            },
-            {
-                "url": "/videos/projet/slides/ADDY/SCENE_INTRO_ADDY.mp4",
+                "url": "/videos/projet/slides/VIS_MA_VIE/VIS_MA_VIE.mp4",
                 "alt": "test alt",
                 "type": "video"
             },
             {
-                "url": "/images/projet/slides/ADDY/PROJET_ADDY-4.jpg",
+                "url": "/images/projet/slides/VIS_MA_VIE/VIS_3.png",
                 "alt": "test alt",
                 "type": "image"
             },
             {
-                "url": "/images/projet/slides/ADDY/PROJET_ADDY-5.png",
+                "url": "/images/projet/slides/VIS_MA_VIE/VIS_4.png",
                 "alt": "test alt",
                 "type": "image"
             },
             {
-                "url": "/images/projet/slides/ADDY/PROJET_ADDY-6.jpg",
+                "url": "/images/projet/slides/VIS_MA_VIE/VIS_5.png",
                 "alt": "test alt",
                 "type": "image"
             },
             {
-                "url": "/videos/projet/slides/ADDY/SCENE_OUTRO_ADDY.mp4",
+                "url": "/images/projet/slides/VIS_MA_VIE/VIS_6.png",
                 "alt": "test alt",
-                "type": "video"
+                "type": "image"
             }
         ]
     },
