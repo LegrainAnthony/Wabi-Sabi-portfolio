@@ -193,6 +193,54 @@
         ]
     },
     {
+        "slug": "ECO",
+        "name": "Eco clic / Eco Flic",
+        "subtitle": "Application mobile",
+        "date": "2022",
+        "cover": {
+            "url": "/images/projet/bannieres/BANNIERE_ECO.png",
+            "alt": "test alt"
+        },
+        "description": [
+            "Réalisation d'un escape game mobile",
+            "sous forme d'une application, pour sensibiliser",
+            "au numérique responsable"
+
+        ],
+        "slides": [
+            {
+                "url": "/images/projet/slides/ECO/ECO_1.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/ECO/ECO_2.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/ECO/ECO_3.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/videos/projet/slides/ECO/ANIMATION_ECO_CLIC_FLIC.mp4",
+                "alt": "test alt",
+                "type": "video"
+            },
+            {
+                "url": "/images/projet/slides/ECO/ECO_5.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/ECO/ECO_6.jpg",
+                "alt": "test alt",
+                "type": "image"
+            }
+        ]
+    },
+    {
         "slug": "KIO",
         "name": "Kiosssou",
         "subtitle": "Assets de stream",
