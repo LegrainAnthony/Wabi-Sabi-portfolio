@@ -241,6 +241,59 @@
         ]
     },
     {
+        "slug": "VELO",
+        "name": "VeloTour",
+        "subtitle": "Application mobile",
+        "date": "2022",
+        "cover": {
+            "url": "/images/projet/bannieres/BANNIERE_VELO.png",
+            "alt": "test alt"
+        },
+        "description": [
+            "Réalisation d'une application mobile",
+            "autours d'un évènement",
+            "et de son identité visuelle"
+
+        ],
+        "slides": [
+            {
+                "url": "/images/projet/slides/VELO/VELO_1.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/VELO/VELO_2.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/videos/projet/slides/VELO/VELO.mp4",
+                "alt": "test alt",
+                "type": "video"
+            },
+            {
+                "url": "/images/projet/slides/VELO/VELO_4.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/VELO/VELO_5.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/VELO/VELO_6.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/VELO/VELO_7.jpg",
+                "alt": "test alt",
+                "type": "image"
+            }
+        ]
+    },
+    {
         "slug": "KIO",
         "name": "Kiosssou",
         "subtitle": "Assets de stream",
