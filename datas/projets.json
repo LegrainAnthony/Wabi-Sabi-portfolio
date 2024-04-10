@@ -10,7 +10,7 @@
         },
         "description": [
             "Réalisation de l’identité et des illustrations",
-            "de la nouvel DA 2024 de Addy"
+            "de la nouvelle DA 2024 de Addy"
 
         ],
         "slides": [
@@ -99,6 +99,58 @@
         ]
     },
     {
+        "slug": "REYDO",
+        "name": "Reydo",
+        "subtitle": "Assets de stream",
+        "date": "2024",
+        "cover": {
+            "url": "/images/projet/bannieres/BANNIERE_REYDO.png",
+            "alt": "test alt"
+        },
+        "description": [
+            "Réalisation de l’identité et des illustrations",
+            "de la nouvelle DA 2024 de Addy"
+
+        ],
+        "slides": [
+            {
+                "url": "/images/projet/slides/REYDO/PERSO.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/REYDO/INTRO.jpg",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/REYDO/PAUSE.png",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/videos/projet/slides/REYDO/INTRO.mp4",
+                "alt": "test alt",
+                "type": "video"
+            },
+            {
+                "url": "/videos/projet/slides/REYDO/PAUSE.mp4",
+                "alt": "test alt",
+                "type": "video"
+            },
+            {
+                "url": "/videos/projet/slides/REYDO/OUTRO.mp4",
+                "alt": "test alt",
+                "type": "video"
+            },
+            {
+                "url": "/images/projet/slides/REYDO/OFFLINE.png",
+                "alt": "test alt",
+                "type": "image"
+            }
+        ]
+    },
+    {
         "slug": "KIO",
         "name": "Kiosssou",
         "subtitle": "Assets de stream",
@@ -109,7 +161,7 @@
         },
         "description": [
             "Réalisation de l’identité et des illustrations",
-            "de la nouvel DA 2023 de Kiossou"
+            "de la nouvelle DA 2023 de Kiossou"
         ],
         "slides": [
             {
