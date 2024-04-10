@@ -151,6 +151,48 @@
         ]
     },
     {
+        "slug": "TEGOR",
+        "name": "Teg0r_",
+        "subtitle": "Assets de stream",
+        "date": "2023",
+        "cover": {
+            "url": "/images/projet/bannieres/BANNIERE_TEGOR.png",
+            "alt": "test alt"
+        },
+        "description": [
+            "Réalisation de l’identité et des illustrations",
+            "de la nouvelle DA 2023 de Addy"
+
+        ],
+        "slides": [
+            {
+                "url": "/images/projet/slides/TEGOR/INTRO.png",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/TEGOR/MONO.png",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/images/projet/slides/TEGOR/PANNELS.png",
+                "alt": "test alt",
+                "type": "image"
+            },
+            {
+                "url": "/videos/projet/slides/TEGOR/INTRO.mp4",
+                "alt": "test alt",
+                "type": "video"
+            },
+            {
+                "url": "/images/projet/slides/TEGOR/OFFLINE.png",
+                "alt": "test alt",
+                "type": "image"
+            }
+        ]
+    },
+    {
         "slug": "KIO",
         "name": "Kiosssou",
         "subtitle": "Assets de stream",
