@@ -23,8 +23,6 @@ import ProjetPageStyle from "./Pages/Projet/Projet.module.scss";
 import HeaderStyle from "./Header/header.module.scss";
 import NavigationMobileStyle from "./Header/nav_mobile.module.scss";
 import NavigationDesktopStyle from "./Header/nav_desktop.module.scss";
-// Footer
-import FooterStyle from "./Footer/footer.module.scss"
 
 export {
 	GlobalStyle,
@@ -41,6 +39,5 @@ export {
 	NavigationMobileStyle,
 	NavigationDesktopStyle,
 	MyUniversStyle,
-	ProjetPageStyle,
-	FooterStyle
+	ProjetPageStyle
 };
