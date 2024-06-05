@@ -19,7 +19,9 @@ export const NavigationMobile: React.FC<NavigationMobileProps> = ({navMobileActi
                 <Link className={NavigationMobileStyle.link} href={`/about`}>
                 <p className={`${NavigationMobileStyle.text}`}>ABOUT ME</p>
                 </Link>
+                <Link className={NavigationMobileStyle.link} href={`/contact`}>
                 <p className={`${NavigationMobileStyle.text}`}>CONTACT</p>
+                </Link>
                 <div className={`${NavigationMobileStyle.medias__container}`} >
                 <Link href={'https://www.instagram.com/leart0_0/'} rel="noopener noreferrer" target="_blank">
                     <CustomImage classNameContainer={`${NavigationMobileStyle.media}`} src='/images/SVG/INSTA.svg' />

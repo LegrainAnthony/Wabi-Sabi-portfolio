@@ -17,9 +17,9 @@ export const NavigationDesktop: React.FC<NavigationDesktopProps> = ({ white }) =
             <CustomImage classNameContainer={`${NavigationDesktopStyle.media}`} src={ white ? '/images/SVG/TWITTER.svg' : '/images/SVG/TWITTER_P.svg' } />
             </Link>
         </div>
-        <div className={`${NavigationDesktopStyle.contact__container} ${FontStyle.jap} ${Colors.purple}`} >
+            <Link href={'/contact'} className={`${NavigationDesktopStyle.contact__container} ${FontStyle.jap} ${Colors.purple}`}>
             <p className={`${NavigationDesktopStyle.contact} ${white ? `${NavigationDesktopStyle.white}` : null }`}>Contact</p>
-        </div>
+            </Link>
         <CustomImage 
             src={'/images/SVG/LOGO_ROTATE.svg'} 
             alt="Header logo"

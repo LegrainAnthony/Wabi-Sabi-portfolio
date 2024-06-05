@@ -25,7 +25,7 @@ export const AboutComponent: React.FC<HomeComponentProps> = ({ position }) => {
             <p>Qui suis-je ?,</p>
             <p>Quelles sont mes passions ?</p>
           </PinkJapContainer>
-          <Link href={'/about'}>
+          <Link href={'/contact'}>
             <Button className={AboutStyle.button} buttonText="EN SAVOIR PLUS"/>
           </Link>
       </ComponentsHomeContainer>

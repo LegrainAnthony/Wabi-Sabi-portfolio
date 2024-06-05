@@ -18,6 +18,7 @@ import QuestionStyle from "./Pages/Home/question.module.scss";
 import UniversStyle from "./Pages/Home/univers.module.scss";
 import MyUniversStyle from "./Pages/MyUnivers/MyUnivers.module.scss";
 import ProjetPageStyle from "./Pages/Projet/Projet.module.scss";
+import ContactPageStyle from "./Pages/Contact/contact.module.scss";
 // Header
 
 import HeaderStyle from "./Header/header.module.scss";
@@ -42,5 +43,6 @@ export {
 	NavigationDesktopStyle,
 	MyUniversStyle,
 	ProjetPageStyle,
-	FooterStyle
+	FooterStyle,
+	ContactPageStyle
 };
