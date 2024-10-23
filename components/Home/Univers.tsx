@@ -1,5 +1,5 @@
 import React from 'react';
-import { UniversStyle } from "../../styles/index";
+import { FontStyle, UniversStyle } from "../../styles/index";
 import { HomeComponentProps, deviceProperties } from "@/types";
 import { useMatchMedia } from "@/hooks";
 import { calculTopPosition } from '@/helpers';
@@ -36,7 +36,7 @@ export const UniversComponent: React.FC<HomeComponentProps> = ({ position }) => 
             <p>visuelle ...</p>
           </PinkJapContainer>
           <Link href={'/my-univers'} >
-          <Button className={UniversStyle.button} buttonText="DECOUVRIR"/>
+          <Button className={`${UniversStyle.button} ${FontStyle.jap}`} buttonText="DECOUVRIR"/>
           </Link>
       </ComponentsHomeContainer>
   );

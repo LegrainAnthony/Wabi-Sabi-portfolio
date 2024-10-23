@@ -1,4 +1,4 @@
-import { AboutStyle } from "@/styles";
+import { AboutStyle, FontStyle } from "@/styles";
 import { HomeComponentProps, deviceProperties } from "@/types";
 import { useMatchMedia } from "@/hooks";
 import { calculTopPosition } from '@/helpers';
@@ -26,7 +26,7 @@ export const AboutComponent: React.FC<HomeComponentProps> = ({ position }) => {
             <p>Quelles sont mes passions ?</p>
           </PinkJapContainer>
           <Link href={'/contact'}>
-            <Button className={AboutStyle.button} buttonText="EN SAVOIR PLUS"/>
+            <Button className={`${AboutStyle.button} ${FontStyle.jap}`} buttonText="EN SAVOIR PLUS"/>
           </Link>
       </ComponentsHomeContainer>
   );

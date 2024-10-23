@@ -69,7 +69,7 @@ const ProjetPage: React.FC<ProjetPageComponents> = ({ params }) => {
                 })}
             </div>
 
-            <Button buttonText="Remonter la page" className={`${ProjetPageStyle.button}`} onClick={scrollToTop}/>
+            <Button buttonText="REMONTER LA PAGE" className={`${ProjetPageStyle.button} ${FontStyle.jap}`} onClick={scrollToTop}/>
             <Footer />
         </PageContainer>
     )  
