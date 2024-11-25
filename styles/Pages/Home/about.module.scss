@@ -61,6 +61,11 @@
         width: 35%;
         top: -5vh;
         right: 10vh;
+   
+
+        .image {
+            object-fit: contain;
+        }
     }  
 
     .title__container {

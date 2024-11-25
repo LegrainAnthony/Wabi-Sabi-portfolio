@@ -4,6 +4,7 @@ import { useMatchMedia } from "@/hooks";
 import { calculTopPosition } from '@/helpers';
 import { CustomImage, TitleContainer, SubTitleContainer, PinkJapContainer, ComponentsHomeContainer } from "@/components/UI";
 import Link from "next/link";
+import { Button } from "@/components/UI/Button";
 
 export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) => {
   const deviceSizes: deviceProperties[] = 
@@ -27,6 +28,11 @@ export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) =>
             <p>Je suis disponible par appel pour discuter</p>
             <p>de ton projet,tes envies...</p>
             <p>À bientôt !</p>
+            <Link href={'/pdf/tarifs.pdf'} rel="noopener noreferrer" target="_blank" style={{textDecoration: "none"}}>
+              <Button className={`${QuestionStyle.button} ${FontStyle.jap}`} buttonText="Voir mes Tarifs" onClick={() => {console.log('test');
+            }}/>
+            </Link>
+
           </PinkJapContainer>
           <div className={`${QuestionStyle.contact__medias__container}`} >
             <div className={`${FontStyle.jap} ${Colors.purple} ${QuestionStyle.contact__container}`}>
@@ -34,10 +40,10 @@ export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) =>
               <a className={`${Colors.purple}`} href="mailto:beauchamplea27@gmail.com">beauchamplea27@gmail.com</a>
             </div>
             <div className={`${QuestionStyle.medias}`} >
-            <Link href={'https://www.instagram.com/leart0_0/'} rel="noopener noreferrer" target="_blank">
+            <Link href={'https://twitter.com/Avalorrs'} rel="noopener noreferrer" target="_blank">
               <CustomImage classNameContainer={`${QuestionStyle.media}`} src='/images/SVG/TWITTER_P.svg' />
             </Link>
-            <Link href={'https://twitter.com/Avalorrs'} rel="noopener noreferrer" target="_blank">
+            <Link href={'https://www.instagram.com/leart0_0/'} rel="noopener noreferrer" target="_blank">
               <CustomImage classNameContainer={`${QuestionStyle.media}`} src='/images/SVG/INSTA_P.svg' />
             </Link>
             </div>

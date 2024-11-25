@@ -17,7 +17,7 @@ export const AboutComponent: React.FC<HomeComponentProps> = ({ position }) => {
 
     return (
       <ComponentsHomeContainer position={calculTopPosition(position, deviceSizes)} className={`${AboutStyle.container}`}>
-        <CustomImage classNameContainer={`${AboutStyle.image__container}`} alt={'profile picture'} src={`/images/JPG/profile_pic.jpg`} height={800} width={800} />
+        <CustomImage classNameContainer={`${AboutStyle.image__container}`} classNameImage={`${AboutStyle.image}`} alt={'profile picture'} src={`/images/JPG/profile_pic.jpg`} height={800} width={800} />
           <TitleContainer className={`${AboutStyle.title__container}`}>
             <h1 className={`${AboutStyle.title}`}>About me</h1>
           </TitleContainer>
@@ -25,7 +25,7 @@ export const AboutComponent: React.FC<HomeComponentProps> = ({ position }) => {
             <p>Qui suis-je ?,</p>
             <p>Quelles sont mes passions ?</p>
           </PinkJapContainer>
-          <Link href={'/contact'}>
+          <Link href={'/contact'} style={{textDecoration: "none"}} >
             <Button className={`${AboutStyle.button} ${FontStyle.jap}`} buttonText="EN SAVOIR PLUS"/>
           </Link>
       </ComponentsHomeContainer>

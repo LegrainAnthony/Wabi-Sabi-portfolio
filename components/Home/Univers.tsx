@@ -35,7 +35,7 @@ export const UniversComponent: React.FC<HomeComponentProps> = ({ position }) => 
             <p>illustration,identité</p>
             <p>visuelle ...</p>
           </PinkJapContainer>
-          <Link href={'/my-univers'} >
+          <Link href={'/my-univers'} style={{textDecoration: "none"}} >
           <Button className={`${UniversStyle.button} ${FontStyle.jap}`} buttonText="DECOUVRIR"/>
           </Link>
       </ComponentsHomeContainer>
