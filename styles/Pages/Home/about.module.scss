@@ -37,37 +37,41 @@
 }
 
 .image__container {
-    width: 80%;
-    height: 55vh;
-    top: -46vh;
-    z-index: 0;
     position: absolute;
+    top: -46vh;
+    z-index: -1;
+    background-color: red;
 
+    /* Ajustement pour respecter la taille naturelle */
+    width: 60%; /* Laisse l'image définir sa largeur */
+    height: auto; /* Laisse l'image définir sa hauteur */
+
+    img {
+        display: block; /* Évite les marges indésirables */
+        max-width: 100%; /* Empêche l'image de dépasser la taille du conteneur parent */
+        height: auto; /* Respecte le ratio de l'image */
+    }
     @media screen and (min-width: 375px) {
-        height: 45vh;
-        top: -39vh;
+        width: 70%; /* Laisse l'image définir sa largeur */
     }
 
     @media screen and (min-width: 768px) {
-        height: 48vh;
-        width: 70%;
-        top: -40vh;
+        width: 55%;
     }
-}
 
-
-@media screen and (min-width: 1280px) {
-    .image__container {
+    @media screen and (min-width: 1280px) {
         width: 35%;
         top: -5vh;
         right: 10vh;
-   
+    }
+    @media screen and (min-width: 1440px) {
+        width: 30%;
+        top: -5vh;
+        right: 10vw;
+    }
+}
 
-        .image {
-            object-fit: contain;
-        }
-    }  
-
+@media screen and (min-width: 1280px) {
     .title__container {
         width: 70%;
         .title {
@@ -88,13 +92,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .image__container {
-        width: 30%;
-        height: 70vh;
-        top: -5vh;
-        right: 10vw;
-    }  
-
     .title__container {
         width: 70%;
         .title {
