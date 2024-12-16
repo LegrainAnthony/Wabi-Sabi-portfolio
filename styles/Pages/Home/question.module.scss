@@ -133,6 +133,7 @@
     }
 
     .contact__medias__container {
+        z-index: -1;
         position: absolute;
         bottom: -34.5vh;
         left: 12vw;

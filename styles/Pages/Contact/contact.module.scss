@@ -15,6 +15,12 @@
 .pink_text {
     margin-top: 3vh;
     text-align: center;
+    margin-bottom: 5vh;
+}
+
+.button {
+    font-size: 4vw;
+    margin-bottom: 5vh;
 }
 
 .media__container {
@@ -38,6 +44,14 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .button {
+        font-size: 3.5vw;
+    }
+}
+
+
+
 
 @media screen and (min-width: 1020px) {
     .question {
@@ -50,6 +64,10 @@
     
     .pink_text {
         font-size: 2.5vw;
+    }
+
+    .button {
+        font-size: 2vw;
     }
     
     .media__container {
@@ -69,11 +87,16 @@
             }
         }
     }
+    
 }
 
 
 @media screen and (min-width: 1280px) {
-
+    .button {
+        margin-top: 5vh;
+        margin-bottom: 0;
+        font-size: 1.8vw;
+    }
 
 }
 
@@ -91,15 +114,20 @@
         font-size: 1.2vw;
         margin-bottom: 0vw;
     }
-    
+
     .media__container {
         width: 100%;
+        margin-top: 5vh;
+        width: 25%;
     
         .media_link {
-            margin-bottom: -7vw;
+            height: auto;
+            margin-bottom: 2vh;
     
             .image_link_container {
                 width: 2vw;;
+                height: 5vh;
+
             }
     
             .media_text {
@@ -108,5 +136,9 @@
                 font-size: 1.5vw;
             }
         }
+    }
+
+    .button {
+        font-size: 1.2vw;
     }
 }

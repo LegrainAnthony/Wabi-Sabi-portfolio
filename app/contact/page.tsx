@@ -1,6 +1,8 @@
 import { PageContainer, TitleContainer, SubTitleContainer, PinkJapContainer, CustomImage} from "@/components/UI";
+import { Button } from "@/components/UI/Button";
 import { ContactPageStyle, FontStyle } from "@/styles";
 import Link from "next/link";
+
 
 interface AboutPageProps {};
 
@@ -19,6 +21,9 @@ const AboutPage: React.FC<AboutPageProps> = () => {
             <p>de ton projet,tes envies...</p>
             <p>À bientôt !</p>
           </PinkJapContainer>
+          <Link href={'/pdf/tarifs.pdf'} rel="noopener noreferrer" target="_blank" style={{textDecoration: "none"}}>
+              <Button className={`${ContactPageStyle.button} ${FontStyle.jap}`} buttonText="Voir mes Tarifs" />
+            </Link>
           <div className={`${ContactPageStyle.media__container} ${FontStyle.jap}`}>
             <Link href={"https://www.instagram.com/leart0_0/"} rel="noopener noreferrer" target="_blank" className={`${ContactPageStyle.media_link}`}>
               <CustomImage src="/images/SVG/INSTA.svg" classNameContainer={`${ContactPageStyle.image_link_container}`} />
