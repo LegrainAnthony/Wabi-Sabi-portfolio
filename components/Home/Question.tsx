@@ -28,7 +28,7 @@ export const QuestionComponent: React.FC<HomeComponentProps> = ({ position }) =>
             <p>Je suis disponible par appel pour discuter</p>
             <p>de ton projet,tes envies...</p>
             <p>À bientôt !</p>
-            <Link href={'/pdf/tarifs.pdf'} rel="noopener noreferrer" target="_blank" style={{textDecoration: "none"}}>
+            <Link href={'/pdf/PRESTATION_DE_SERVICE_2024.pdf'} rel="noopener noreferrer" target="_blank" style={{textDecoration: "none"}}>
               <Button className={`${QuestionStyle.button} ${FontStyle.jap}`} buttonText="Voir mes Tarifs" />
             </Link>
 

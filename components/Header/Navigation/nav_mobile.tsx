@@ -20,7 +20,10 @@ export const NavigationMobile: React.FC<NavigationMobileProps> = ({navMobileActi
                 <p className={`${NavigationMobileStyle.text}`}>ABOUT ME</p>
                 </Link>
                 <Link className={NavigationMobileStyle.link} href={`/contact`}>
-                <p className={`${NavigationMobileStyle.text}`}>CONTACT</p>
+                    <p className={`${NavigationMobileStyle.text}`}>CONTACT</p>
+                </Link>
+                <Link className={NavigationMobileStyle.link} href={'/pdf/PRESTATION_DE_SERVICE_2024.pdf'} rel="noopener noreferrer" target="_blank">
+                <p className={`${NavigationMobileStyle.text}`}>TARIFS</p>
                 </Link>
                 <div className={`${NavigationMobileStyle.medias__container}`} >
                 <Link href={'https://www.instagram.com/leart0_0/'} rel="noopener noreferrer" target="_blank">
